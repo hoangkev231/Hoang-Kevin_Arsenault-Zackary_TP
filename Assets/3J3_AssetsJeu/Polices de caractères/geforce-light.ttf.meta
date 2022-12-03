@@ -1,0 +1,23 @@
+fileFormatVersion: 2
+guid: 0f6dd4d4d5261f941afc927347ff8ba4
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - GeForce
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 7ec67da0131bea34c8789d049c74fbf5, type: 3}
+  - {fileID: 12800000, guid: 49e0754033143864898581607bab8037, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
