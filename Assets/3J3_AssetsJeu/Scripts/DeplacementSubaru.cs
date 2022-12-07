@@ -364,7 +364,7 @@ public class DeplacementSubaru : MonoBehaviour
         }
     }
 
-    private void OnCollisionEnter(Collision collision)
+    /* private void OnCollisionEnter(Collision collision)
     {
         // Pénalité de 1s pour toucher les pneus et les cônes.
         if (collision.gameObject.tag == "Penalite")
@@ -374,19 +374,19 @@ public class DeplacementSubaru : MonoBehaviour
 
             // Détruire l'objet de pénalité dès qu'il est touché.
             // Problème: Même avec le boucle foreach, TOUS les objets de pénalités sont enlevés.
-            /* GameObject[] objetsPenalites = GameObject.FindGameObjectsWithTag("Penalite");
+            GameObject[] objetsPenalites = GameObject.FindGameObjectsWithTag("Penalite");
             foreach(GameObject objetPenalite in objetsPenalites)
             {
                 GameObject.Destroy(objetPenalite);
-            } */
+            }
         }
-    }
+    } */
     private void OnTriggerEnter(Collider other)
     {
         // Le checkpoint
         if (other.gameObject.tag == "Checkpoint")
         {
-            decompteur.GetComponent<DecompteurScript>().valCompteur = 101;
+            decompteur.GetComponent<DecompteurScript>().valCompteur = 100;
             sonMoteurPiste.PlayOneShot(sonCheckpoint);
             Destroy(checkpoint); // Détruire le panneau invisible qui permet d'incrémenter le temps (afin de ne pas réincrémenter en retournant).
         }
