@@ -23,6 +23,7 @@ public class DeplacementSubaru : MonoBehaviour
 
     // empêcher répétition
     public bool primary2DAxisIsChosen;
+    public static bool secondaryButtonIsPressed;
 
     // Joystick de gauche
     public Vector2 primary2DAxisValue = Vector2.zero;
@@ -83,7 +84,7 @@ public class DeplacementSubaru : MonoBehaviour
     }
     void Start()
     {
-       
+
 
         rigidbodySubaru = GetComponent<Rigidbody>();
         sonMoteurPiste = GetComponent<AudioSource>();
@@ -117,7 +118,7 @@ public class DeplacementSubaru : MonoBehaviour
         if (primary2DAxisValue != prevPrimary2DAxisValue)
         {
             primary2DAxisIsChosen = false;
-         
+
 
 
 
@@ -132,7 +133,7 @@ public class DeplacementSubaru : MonoBehaviour
             //  Les X 
 
             //btnTourneGauche
-            if (primary2DAxisValue.x < -0.3) 
+            if (primary2DAxisValue.x < -0.3)
             {
                 btnTourneGauche = true;
                 btnTourneDroite = false;
@@ -152,10 +153,10 @@ public class DeplacementSubaru : MonoBehaviour
                 btnAvance = true;
                 btnRecule = false;
             }
-            
+
 
             //btnRecule
-            
+
             if (primary2DAxisValue.y < 0)
             {
                 btnRecule = true;
@@ -165,6 +166,26 @@ public class DeplacementSubaru : MonoBehaviour
 
 
         }
+        //boutton  Y/B 
+        // capturing primary button press and release
+        bool secondaryButtonValue = false;
+        InputFeatureUsage<bool> secondaryButtonUsage = CommonUsages.secondaryButton;
+
+        if (device.TryGetFeatureValue(secondaryButtonUsage, out secondaryButtonValue) && secondaryButtonValue && !secondaryButtonIsPressed)
+        {
+            secondaryButtonIsPressed = true;
+
+        }
+        else if (!secondaryButtonValue && secondaryButtonIsPressed)
+        {
+            secondaryButtonIsPressed = false;
+
+        }
+
+
+
+
+
         //Quand le JoyStick n'est pas utilisé
         else if (primary2DAxisValue == Vector2.zero && primary2DAxisIsChosen)
         {
@@ -178,7 +199,7 @@ public class DeplacementSubaru : MonoBehaviour
         }
 
         //Si JoystickRevien a 0 désactiver btn
-        if(primary2DAxisValue.x == 0)
+        if (primary2DAxisValue.x == 0)
         {
             btnTourneGauche = false;
             btnTourneDroite = false;
@@ -197,7 +218,7 @@ public class DeplacementSubaru : MonoBehaviour
         // Force physiques
         var forceTourne = Input.GetAxis("Horizontal") * vitesseTourne;
         rigidbodySubaru.AddRelativeTorque(0, forceTourne, 0);
-        rigidbodySubaru.AddRelativeForce(0, 0, vitesseAvance*1.25f); // La voiture était un peu trop lente, donc sa vitesse est multipliée par 1.25.
+        rigidbodySubaru.AddRelativeForce(0, 0, vitesseAvance * 1.25f); // La voiture était un peu trop lente, donc sa vitesse est multipliée par 1.25.
 
         // Animation des roues (utiliser les caméras 3 et 4 pour voir les animations)<
         // Problème: Les roues ne roulent pas à l'axe x lorsqu'elles tournent.
@@ -321,7 +342,7 @@ public class DeplacementSubaru : MonoBehaviour
         }
 
         // Réinitialiser la voiture lorsqu'on est bloqué
-        if (Input.GetKeyDown("r"))
+        if (Input.GetKeyDown("r") || secondaryButtonIsPressed == true)
         {
             transform.position = new Vector3(transform.position.x, transform.position.y + 10f, transform.position.z);
             transform.rotation = new Quaternion(0, 0, 0, 0);
@@ -340,7 +361,7 @@ public class DeplacementSubaru : MonoBehaviour
         }
         else if (vitesseAvance > 500f && vitesseAvance < 550f)
         {
-            sonMoteurPiste.pitch = ((vitesseAvance / 550f)* 2f) - 1f;
+            sonMoteurPiste.pitch = ((vitesseAvance / 550f) * 2f) - 1f;
         }
         else if (vitesseAvance > 550f && vitesseAvance < 625f)
         {
