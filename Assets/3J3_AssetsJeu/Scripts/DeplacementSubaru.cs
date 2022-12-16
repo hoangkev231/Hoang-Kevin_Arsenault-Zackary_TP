@@ -385,7 +385,7 @@ public class DeplacementSubaru : MonoBehaviour
         }
     }
 
-    private void OnCollisionEnter(Collision collision)
+    /* private void OnCollisionEnter(Collision collision)
     {
         // Pénalité de 1s pour toucher les pneus et les cônes.
         if (collision.gameObject.tag == "Penalite")
@@ -399,9 +399,10 @@ public class DeplacementSubaru : MonoBehaviour
             foreach(GameObject objetPenalite in objetsPenalites)
             {
                 GameObject.Destroy(objetPenalite);
-            } */
+            }
         }
-    }
+    } */
+
     private void OnTriggerEnter(Collider other)
     {
         // Le checkpoint
@@ -419,6 +420,11 @@ public class DeplacementSubaru : MonoBehaviour
             Destroy(pointB);
             reussi.SetActive(true);
             Invoke("ChangerSceneReussi", 3f);
+        }
+        else if (other.gameObject.tag == "Eau")
+        {
+            gameOver.SetActive(true);
+            Invoke("ChangerSceneEchec", 1f);
         }
     }
 

@@ -40,11 +40,10 @@ public class ChangementScene : MonoBehaviour
         bool primaryButtonValue = false;
         InputFeatureUsage<bool> primaryButtonUsage = CommonUsages.primaryButton;
 
-        if (Input.GetKeyDown("a"))
+        /* if (Input.GetKeyDown("a"))
         {
-
             SceneManager.LoadScene("SceneJeu");
-        }
+        } */
         if (device.TryGetFeatureValue(primaryButtonUsage, out primaryButtonValue) && primaryButtonValue && !primaryButtonIsPressed)
         {
             primaryButtonIsPressed = true;
@@ -55,5 +54,10 @@ public class ChangementScene : MonoBehaviour
             primaryButtonIsPressed = false;
 
         }
+    }
+    public void CommencerJeu(string sceneJeu)
+    {
+        // Changer la scène
+        SceneManager.LoadScene("SceneJeu");
     }
 }

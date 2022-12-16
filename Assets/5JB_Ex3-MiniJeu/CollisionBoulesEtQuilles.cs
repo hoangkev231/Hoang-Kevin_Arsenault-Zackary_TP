@@ -5,9 +5,9 @@ using UnityEngine.UI;
 
 public class CollisionBoulesEtQuilles : MonoBehaviour
 {
-    public GameObject compteurQuilles;
-    public GameObject Quille;
-    public int valCompteurQuilles;
+    public GameObject compteurEnnemi;
+    public GameObject Ennemi;
+    public int valCompteurEnnemi;
     public AudioClip sonPointage;
     // Start is called before the first frame update
     void Start()
@@ -25,10 +25,10 @@ public class CollisionBoulesEtQuilles : MonoBehaviour
     {
         if (collision.gameObject.tag == "Boule")
         {
-            valCompteurQuilles++;
-            compteurQuilles.GetComponent<Text>().text = valCompteurQuilles.ToString() + " / 10";
-            Quille.GetComponent<CapsuleCollider>().enabled = false;
-            Quille.GetComponent<AudioSource>().PlayOneShot(sonPointage);
+            valCompteurEnnemi++;
+            compteurEnnemi.GetComponent<Text>().text = valCompteurEnnemi.ToString() + " / 10";
+            Ennemi.GetComponent<BoxCollider>().enabled = false;
+            Ennemi.GetComponent<AudioSource>().PlayOneShot(sonPointage);
         }
     }
 }

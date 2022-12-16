@@ -1,0 +1,1244 @@
+Using pre-set license
+Built from '2022.1/staging' branch; Version is '2022.1.12f1 (916d9c03b898) revision 9530780'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19044) 64bit Education' Language: 'fr' Physical Memory: 32481 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity 2022.1.12f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker3
+-projectPath
+D:/College Work 5/5JB - Exp/Hoang-Kevin_Arsenault-Zackary_TP
+-logFile
+Logs/AssetImportWorker3.log
+-srvPort
+53471
+Successfully changed project path to: D:/College Work 5/5JB - Exp/Hoang-Kevin_Arsenault-Zackary_TP
+D:/College Work 5/5JB - Exp/Hoang-Kevin_Arsenault-Zackary_TP
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 122.34 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.76 ms.
+Initialize engine version: 2022.1.12f1 (916d9c03b898)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity 2022.1.12f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/College Work 5/5JB - Exp/Hoang-Kevin_Arsenault-Zackary_TP/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3070 (ID=0x2488)
+    Vendor:   NVIDIA
+    VRAM:     8043 MB
+    Driver:   30.0.15.1215
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity 2022.1.12f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity 2022.1.12f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity 2022.1.12f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56612
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity 2022.1.12f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity 2022.1.12f1/Editor/Data/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity 2022.1.12f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity 2022.1.12f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity 2022.1.12f1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll
+Registered in 0.006459 seconds.
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 101.12 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.04 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.599 seconds
+Domain Reload Profiling:
+	ReloadAssembly (599ms)
+		BeginReloadAssembly (60ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (448ms)
+			LoadAssemblies (59ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (99ms)
+				TypeCache.Initialize (98ms)
+					TypeCache.ScanAssembly (97ms)
+				ResolveRequiredComponents (0ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (22ms)
+			SetupLoadedEditorAssemblies (281ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (40ms)
+				SetLoadedEditorAssemblies (5ms)
+				RefreshPlugins (101ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (88ms)
+				ProcessInitializeOnLoadMethodAttributes (45ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.006438 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\College Work 5\5JB - Exp\Hoang-Kevin_Arsenault-Zackary_TP\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\College Work 5\5JB - Exp\Hoang-Kevin_Arsenault-Zackary_TP\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 102.53 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.04 ms.
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0003d] in D:\College Work 5\5JB - Exp\Hoang-Kevin_Arsenault-Zackary_TP\Library\PackageCache\com.unity.xr.oculus@3.0.2\Runtime\OculusLoader.cs:271 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in D:\College Work 5\5JB - Exp\Hoang-Kevin_Arsenault-Zackary_TP\Library\PackageCache\com.unity.xr.oculus@3.0.2\Runtime\OculusLoader.cs:256 
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <f3aec01a34d14c7080754e28743c8472>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00083] in <f3aec01a34d14c7080754e28743c8472>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <f3aec01a34d14c7080754e28743c8472>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x000a5] in <a01bf2e497e84ae285aeb97a3052e6cc>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Completed reload, in  1.216 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1217ms)
+		BeginReloadAssembly (98ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (17ms)
+		EndReloadAssembly (1026ms)
+			LoadAssemblies (75ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (261ms)
+				TypeCache.Initialize (250ms)
+					TypeCache.ScanAssembly (246ms)
+				ResolveRequiredComponents (12ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (57ms)
+			SetupLoadedEditorAssemblies (588ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (15ms)
+				SetLoadedEditorAssemblies (5ms)
+				RefreshPlugins (103ms)
+				BeforeProcessingInitializeOnLoad (101ms)
+				ProcessInitializeOnLoadAttributes (286ms)
+				ProcessInitializeOnLoadMethodAttributes (73ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 1.01 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.05 ms.
+Unloading 5981 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 36 unused Assets / (65.0 KB). Loaded Objects now: 6459.
+Memory consumption went from 0.92 GB to 0.92 GB.
+Total: 3.393800 ms (FindLiveObjects: 0.468900 ms CreateObjectMapping: 0.478100 ms MarkObjects: 2.356200 ms  DeleteObjects: 0.089900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 208439.367326 seconds.
+  path: Assets/3J3_AssetsJeu/Scripts/ChangementScene.cs
+  artifactKey: Guid(0417edbb3eeac2d43900b92af7c7926f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3J3_AssetsJeu/Scripts/ChangementScene.cs using Guid(0417edbb3eeac2d43900b92af7c7926f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8bfeb4167f86498e6d22646a87841c7a') in 0.027981 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005918 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\College Work 5\5JB - Exp\Hoang-Kevin_Arsenault-Zackary_TP\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\College Work 5\5JB - Exp\Hoang-Kevin_Arsenault-Zackary_TP\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.97 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.05 ms.
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0003d] in D:\College Work 5\5JB - Exp\Hoang-Kevin_Arsenault-Zackary_TP\Library\PackageCache\com.unity.xr.oculus@3.0.2\Runtime\OculusLoader.cs:271 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in D:\College Work 5\5JB - Exp\Hoang-Kevin_Arsenault-Zackary_TP\Library\PackageCache\com.unity.xr.oculus@3.0.2\Runtime\OculusLoader.cs:256 
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <f3aec01a34d14c7080754e28743c8472>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00083] in <f3aec01a34d14c7080754e28743c8472>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <f3aec01a34d14c7080754e28743c8472>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x000a5] in <a01bf2e497e84ae285aeb97a3052e6cc>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Completed reload, in  1.048 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1049ms)
+		BeginReloadAssembly (116ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (36ms)
+		EndReloadAssembly (849ms)
+			LoadAssemblies (77ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (246ms)
+				TypeCache.Initialize (235ms)
+					TypeCache.ScanAssembly (230ms)
+				ResolveRequiredComponents (11ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (39ms)
+			SetupLoadedEditorAssemblies (439ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (21ms)
+				SetLoadedEditorAssemblies (5ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (67ms)
+				ProcessInitializeOnLoadAttributes (264ms)
+				ProcessInitializeOnLoadMethodAttributes (74ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (11ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.87 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.04 ms.
+Unloading 5832 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 26 unused Assets / (24.6 KB). Loaded Objects now: 6464.
+Memory consumption went from 0.91 GB to 0.91 GB.
+Total: 2.986200 ms (FindLiveObjects: 0.390000 ms CreateObjectMapping: 0.368300 ms MarkObjects: 2.207900 ms  DeleteObjects: 0.019300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006670 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\College Work 5\5JB - Exp\Hoang-Kevin_Arsenault-Zackary_TP\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\College Work 5\5JB - Exp\Hoang-Kevin_Arsenault-Zackary_TP\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.96 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.05 ms.
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0003d] in D:\College Work 5\5JB - Exp\Hoang-Kevin_Arsenault-Zackary_TP\Library\PackageCache\com.unity.xr.oculus@3.0.2\Runtime\OculusLoader.cs:271 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in D:\College Work 5\5JB - Exp\Hoang-Kevin_Arsenault-Zackary_TP\Library\PackageCache\com.unity.xr.oculus@3.0.2\Runtime\OculusLoader.cs:256 
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <f3aec01a34d14c7080754e28743c8472>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00083] in <f3aec01a34d14c7080754e28743c8472>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <f3aec01a34d14c7080754e28743c8472>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x000a5] in <a01bf2e497e84ae285aeb97a3052e6cc>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Completed reload, in  1.017 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1018ms)
+		BeginReloadAssembly (109ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (34ms)
+		EndReloadAssembly (825ms)
+			LoadAssemblies (76ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (242ms)
+				TypeCache.Initialize (231ms)
+					TypeCache.ScanAssembly (226ms)
+				ResolveRequiredComponents (11ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (40ms)
+			SetupLoadedEditorAssemblies (416ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (20ms)
+				SetLoadedEditorAssemblies (5ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (63ms)
+				ProcessInitializeOnLoadAttributes (248ms)
+				ProcessInitializeOnLoadMethodAttributes (72ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (11ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.96 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.04 ms.
+Unloading 5832 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 26 unused Assets / (25.7 KB). Loaded Objects now: 6469.
+Memory consumption went from 0.91 GB to 0.91 GB.
+Total: 3.169900 ms (FindLiveObjects: 0.420800 ms CreateObjectMapping: 0.423500 ms MarkObjects: 2.304500 ms  DeleteObjects: 0.020200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005877 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\College Work 5\5JB - Exp\Hoang-Kevin_Arsenault-Zackary_TP\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\College Work 5\5JB - Exp\Hoang-Kevin_Arsenault-Zackary_TP\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.99 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.05 ms.
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0003d] in D:\College Work 5\5JB - Exp\Hoang-Kevin_Arsenault-Zackary_TP\Library\PackageCache\com.unity.xr.oculus@3.0.2\Runtime\OculusLoader.cs:271 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in D:\College Work 5\5JB - Exp\Hoang-Kevin_Arsenault-Zackary_TP\Library\PackageCache\com.unity.xr.oculus@3.0.2\Runtime\OculusLoader.cs:256 
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <f3aec01a34d14c7080754e28743c8472>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00083] in <f3aec01a34d14c7080754e28743c8472>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <f3aec01a34d14c7080754e28743c8472>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x000a5] in <a01bf2e497e84ae285aeb97a3052e6cc>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Completed reload, in  1.066 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1066ms)
+		BeginReloadAssembly (152ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (62ms)
+		EndReloadAssembly (820ms)
+			LoadAssemblies (77ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (235ms)
+				TypeCache.Initialize (225ms)
+					TypeCache.ScanAssembly (220ms)
+				ResolveRequiredComponents (11ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (38ms)
+			SetupLoadedEditorAssemblies (419ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (21ms)
+				SetLoadedEditorAssemblies (5ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (66ms)
+				ProcessInitializeOnLoadAttributes (249ms)
+				ProcessInitializeOnLoadMethodAttributes (70ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (16ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.10 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.04 ms.
+Unloading 5832 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 26 unused Assets / (24.7 KB). Loaded Objects now: 6474.
+Memory consumption went from 0.91 GB to 0.91 GB.
+Total: 3.299300 ms (FindLiveObjects: 0.398400 ms CreateObjectMapping: 0.389200 ms MarkObjects: 2.481600 ms  DeleteObjects: 0.029100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005934 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\College Work 5\5JB - Exp\Hoang-Kevin_Arsenault-Zackary_TP\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\College Work 5\5JB - Exp\Hoang-Kevin_Arsenault-Zackary_TP\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.58 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.07 ms.
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0003d] in D:\College Work 5\5JB - Exp\Hoang-Kevin_Arsenault-Zackary_TP\Library\PackageCache\com.unity.xr.oculus@3.0.2\Runtime\OculusLoader.cs:271 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in D:\College Work 5\5JB - Exp\Hoang-Kevin_Arsenault-Zackary_TP\Library\PackageCache\com.unity.xr.oculus@3.0.2\Runtime\OculusLoader.cs:256 
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <f3aec01a34d14c7080754e28743c8472>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00083] in <f3aec01a34d14c7080754e28743c8472>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <f3aec01a34d14c7080754e28743c8472>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x000a5] in <a01bf2e497e84ae285aeb97a3052e6cc>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Completed reload, in  1.029 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1029ms)
+		BeginReloadAssembly (113ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (35ms)
+		EndReloadAssembly (834ms)
+			LoadAssemblies (80ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (236ms)
+				TypeCache.Initialize (223ms)
+					TypeCache.ScanAssembly (218ms)
+				ResolveRequiredComponents (13ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (36ms)
+			SetupLoadedEditorAssemblies (431ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (22ms)
+				SetLoadedEditorAssemblies (7ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (71ms)
+				ProcessInitializeOnLoadAttributes (247ms)
+				ProcessInitializeOnLoadMethodAttributes (75ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (12ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.78 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.04 ms.
+Unloading 5832 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 26 unused Assets / (24.7 KB). Loaded Objects now: 6479.
+Memory consumption went from 0.91 GB to 0.91 GB.
+Total: 3.871900 ms (FindLiveObjects: 0.552000 ms CreateObjectMapping: 0.571400 ms MarkObjects: 2.717200 ms  DeleteObjects: 0.030700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005797 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\College Work 5\5JB - Exp\Hoang-Kevin_Arsenault-Zackary_TP\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\College Work 5\5JB - Exp\Hoang-Kevin_Arsenault-Zackary_TP\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.07 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.05 ms.
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0003d] in D:\College Work 5\5JB - Exp\Hoang-Kevin_Arsenault-Zackary_TP\Library\PackageCache\com.unity.xr.oculus@3.0.2\Runtime\OculusLoader.cs:271 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in D:\College Work 5\5JB - Exp\Hoang-Kevin_Arsenault-Zackary_TP\Library\PackageCache\com.unity.xr.oculus@3.0.2\Runtime\OculusLoader.cs:256 
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <f3aec01a34d14c7080754e28743c8472>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00083] in <f3aec01a34d14c7080754e28743c8472>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <f3aec01a34d14c7080754e28743c8472>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x000a5] in <a01bf2e497e84ae285aeb97a3052e6cc>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Completed reload, in  1.271 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1272ms)
+		BeginReloadAssembly (134ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (33ms)
+		EndReloadAssembly (1002ms)
+			LoadAssemblies (98ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (392ms)
+				TypeCache.Initialize (381ms)
+					TypeCache.ScanAssembly (377ms)
+				ResolveRequiredComponents (10ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (36ms)
+			SetupLoadedEditorAssemblies (413ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (20ms)
+				SetLoadedEditorAssemblies (5ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (64ms)
+				ProcessInitializeOnLoadAttributes (246ms)
+				ProcessInitializeOnLoadMethodAttributes (70ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (11ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.88 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.04 ms.
+Unloading 5832 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 26 unused Assets / (24.6 KB). Loaded Objects now: 6484.
+Memory consumption went from 0.91 GB to 0.91 GB.
+Total: 2.972700 ms (FindLiveObjects: 0.364800 ms CreateObjectMapping: 0.346700 ms MarkObjects: 2.241500 ms  DeleteObjects: 0.019100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005832 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\College Work 5\5JB - Exp\Hoang-Kevin_Arsenault-Zackary_TP\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\College Work 5\5JB - Exp\Hoang-Kevin_Arsenault-Zackary_TP\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.97 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.05 ms.
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0003d] in D:\College Work 5\5JB - Exp\Hoang-Kevin_Arsenault-Zackary_TP\Library\PackageCache\com.unity.xr.oculus@3.0.2\Runtime\OculusLoader.cs:271 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in D:\College Work 5\5JB - Exp\Hoang-Kevin_Arsenault-Zackary_TP\Library\PackageCache\com.unity.xr.oculus@3.0.2\Runtime\OculusLoader.cs:256 
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <f3aec01a34d14c7080754e28743c8472>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00083] in <f3aec01a34d14c7080754e28743c8472>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <f3aec01a34d14c7080754e28743c8472>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x000a5] in <a01bf2e497e84ae285aeb97a3052e6cc>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Completed reload, in  0.969 seconds
+Domain Reload Profiling:
+	ReloadAssembly (969ms)
+		BeginReloadAssembly (105ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (32ms)
+		EndReloadAssembly (778ms)
+			LoadAssemblies (68ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (217ms)
+				TypeCache.Initialize (206ms)
+					TypeCache.ScanAssembly (202ms)
+				ResolveRequiredComponents (10ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (35ms)
+			SetupLoadedEditorAssemblies (408ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (19ms)
+				SetLoadedEditorAssemblies (5ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (63ms)
+				ProcessInitializeOnLoadAttributes (246ms)
+				ProcessInitializeOnLoadMethodAttributes (67ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (11ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.89 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.04 ms.
+Unloading 5832 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 26 unused Assets / (24.7 KB). Loaded Objects now: 6489.
+Memory consumption went from 0.91 GB to 0.91 GB.
+Total: 2.912100 ms (FindLiveObjects: 0.369200 ms CreateObjectMapping: 0.344900 ms MarkObjects: 2.175800 ms  DeleteObjects: 0.021600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 2918.450036 seconds.
+  path: Assets/Settings/SampleSceneProfile.asset
+  artifactKey: Guid(a6560a915ef98420e9faacc1c7438823) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Settings/SampleSceneProfile.asset using Guid(a6560a915ef98420e9faacc1c7438823) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '933df7d401ecb9d7fa1a6628629df4ec') in 0.052486 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/3J3_AssetsJeu/Scenes/SceneJeu/VolumeMatin Profile.asset
+  artifactKey: Guid(b42f5b526b06e2249ac8c6a142154a2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3J3_AssetsJeu/Scenes/SceneJeu/VolumeMatin Profile.asset using Guid(b42f5b526b06e2249ac8c6a142154a2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce28c0509d19b6f75778e6852bb358c7') in 0.006813 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 107.505698 seconds.
+  path: Assets/3J3_AssetsJeu/illusionloop.com/road props/Source Models/road objects low poly - collision meshes.fbx
+  artifactKey: Guid(22aed7e249de16a45abd73169cd52c2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3J3_AssetsJeu/illusionloop.com/road props/Source Models/road objects low poly - collision meshes.fbx using Guid(22aed7e249de16a45abd73169cd52c2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4dd21417d348ab3dddf9a218089a88c8') in 0.591789 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/3J3_AssetsJeu/STYLIZED - FREE Drift Car/Meshes/RTI/RTI_Red.fbx
+  artifactKey: Guid(6dd1c8d4a2f0c874bb33f3540ba4feb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3J3_AssetsJeu/STYLIZED - FREE Drift Car/Meshes/RTI/RTI_Red.fbx using Guid(6dd1c8d4a2f0c874bb33f3540ba4feb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85d3158114cbfa7f0113a455376c828d') in 0.080093 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/5JB_Ex3-MiniJeu/Avatars/assets avatars/Model/Avatar5.fbx
+  artifactKey: Guid(166544fdcae3ad745835e01eacb2f797) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/5JB_Ex3-MiniJeu/Avatars/assets avatars/Model/Avatar5.fbx using Guid(166544fdcae3ad745835e01eacb2f797) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62755e439aaf7aba228c5e09df25d9ef') in 0.100785 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/3J3_AssetsJeu/_Ressources(Ne pas effacer)/Terrain Assets/Bushes/Materials/bush4.mat
+  artifactKey: Guid(96cfdf96bd116869a000fb488f962b59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3J3_AssetsJeu/_Ressources(Ne pas effacer)/Terrain Assets/Bushes/Materials/bush4.mat using Guid(96cfdf96bd116869a000fb488f962b59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b61cfc7120cad9561434d0d654825af9') in 0.060026 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/5JB_Ex3-MiniJeu/Avatars/assets avatars/Materials/Avatar3.mat
+  artifactKey: Guid(0f2cae6342edd5d4e921d23b40ec716a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/5JB_Ex3-MiniJeu/Avatars/assets avatars/Materials/Avatar3.mat using Guid(0f2cae6342edd5d4e921d23b40ec716a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0fdb267a901a39f8f5e23ed2ad8e5fe') in 0.028006 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/3J3_AssetsJeu/_Ressources(Ne pas effacer)/Terrain Assets/Bushes/Materials/bush1.mat
+  artifactKey: Guid(c772a7ccbd111f89a00081698f962b59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3J3_AssetsJeu/_Ressources(Ne pas effacer)/Terrain Assets/Bushes/Materials/bush1.mat using Guid(c772a7ccbd111f89a00081698f962b59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40301870641104d1077f46f10c69fa3e') in 0.024975 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/3J3_AssetsJeu/STYLIZED - FREE Drift Car/Meshes/RTI/RTI_Gray.fbx
+  artifactKey: Guid(080ea7e60bb386d4db9680f45dfedaa8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3J3_AssetsJeu/STYLIZED - FREE Drift Car/Meshes/RTI/RTI_Gray.fbx using Guid(080ea7e60bb386d4db9680f45dfedaa8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29b00952af66b0960579d6be8bf371ed') in 0.076812 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/3J3_AssetsJeu/Traffic Essentials Asset Pack/Materials/100SL.mat
+  artifactKey: Guid(eb86eef59b04d4572b19429a6bf3d287) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3J3_AssetsJeu/Traffic Essentials Asset Pack/Materials/100SL.mat using Guid(eb86eef59b04d4572b19429a6bf3d287) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79e2baefc5f5cfe8cd41048cd9e25006') in 0.040425 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/5JB_Ex3-MiniJeu/Avatars/assets avatars/Model/Avatar1.fbx
+  artifactKey: Guid(e1771d0663ea83f4cb714ab1ce1d3d51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/5JB_Ex3-MiniJeu/Avatars/assets avatars/Model/Avatar1.fbx using Guid(e1771d0663ea83f4cb714ab1ce1d3d51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2bb0c0ae9cca0ac750c78846c66e671') in 0.082493 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/5JB_Ex3-MiniJeu/Avatars/assets avatars/Materials/Avatar4.mat
+  artifactKey: Guid(0d25e1732ca505248831830cfe1e9583) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/5JB_Ex3-MiniJeu/Avatars/assets avatars/Materials/Avatar4.mat using Guid(0d25e1732ca505248831830cfe1e9583) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c86280b048bb26a7f1139f6ec00f35a9') in 0.026277 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/3J3_AssetsJeu/Traffic Essentials Asset Pack/Materials/BlackPaint 1.mat
+  artifactKey: Guid(41a3d411a1de84c84b11fead088898f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3J3_AssetsJeu/Traffic Essentials Asset Pack/Materials/BlackPaint 1.mat using Guid(41a3d411a1de84c84b11fead088898f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e949dd196a5b36edff6031da45c9de35') in 0.034648 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/3J3_AssetsJeu/STYLIZED - FREE Drift Car/Meshes/RTI/RTI_Blue.fbx
+  artifactKey: Guid(f15c0590c7e20ad428dbdd23d877ce10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3J3_AssetsJeu/STYLIZED - FREE Drift Car/Meshes/RTI/RTI_Blue.fbx using Guid(f15c0590c7e20ad428dbdd23d877ce10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1af5f55ada5e3ef05fb3fe52f5c284a9') in 0.075537 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/3J3_AssetsJeu/_Ressources(Ne pas effacer)/Terrain Assets/Trees Ambient-Occlusion/Materials/alder-alderbark.mat
+  artifactKey: Guid(2e2c881dbd110e38a00062d88f962b59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3J3_AssetsJeu/_Ressources(Ne pas effacer)/Terrain Assets/Trees Ambient-Occlusion/Materials/alder-alderbark.mat using Guid(2e2c881dbd110e38a00062d88f962b59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f28f81f63c9dd259f5ba5bb7ab89350b') in 0.023601 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/3J3_AssetsJeu/Traffic Essentials Asset Pack/Meshes/TallPylon.fbx
+  artifactKey: Guid(a26fd01090e0f4294b5e664c20c2bd60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3J3_AssetsJeu/Traffic Essentials Asset Pack/Meshes/TallPylon.fbx using Guid(a26fd01090e0f4294b5e664c20c2bd60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46f5d3514f77a7d9933b6e99fae08675') in 0.062690 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/3J3_AssetsJeu/Traffic Essentials Asset Pack/Meshes/ParkingMeter.fbx
+  artifactKey: Guid(fcab977a2b144431a85fd4c3e53f3788) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3J3_AssetsJeu/Traffic Essentials Asset Pack/Meshes/ParkingMeter.fbx using Guid(fcab977a2b144431a85fd4c3e53f3788) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0576512da0abb8b979ec1bf5ded72b23') in 0.121740 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/3J3_AssetsJeu/STYLIZED - FREE Drift Car/Meshes/RTI/RTI_Yellow.fbx
+  artifactKey: Guid(96824538f1786ea438429bee9309e06d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3J3_AssetsJeu/STYLIZED - FREE Drift Car/Meshes/RTI/RTI_Yellow.fbx using Guid(96824538f1786ea438429bee9309e06d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e0baee2e32b32cf9204102174fce5e5') in 0.077792 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/3J3_AssetsJeu/Traffic Essentials Asset Pack/Materials/50SL.mat
+  artifactKey: Guid(56c0ae10b2fa74051bf48532fb692813) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3J3_AssetsJeu/Traffic Essentials Asset Pack/Materials/50SL.mat using Guid(56c0ae10b2fa74051bf48532fb692813) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c553868f079fbcfb18e6769451d2bf3') in 0.031357 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/5JB_Ex3-MiniJeu/Avatars/assets avatars/Model/Avatar2.fbx
+  artifactKey: Guid(91cbd9356c50e0c40bfa26bdc36290c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/5JB_Ex3-MiniJeu/Avatars/assets avatars/Model/Avatar2.fbx using Guid(91cbd9356c50e0c40bfa26bdc36290c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c74451156cce9070fabf1ca080a4b429') in 0.076598 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.695455 seconds.
+  path: Assets/3J3_AssetsJeu/Ciels/Clair de lune.mat
+  artifactKey: Guid(5ba172cd3918d7c44aa6d04446119a00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3J3_AssetsJeu/Ciels/Clair de lune.mat using Guid(5ba172cd3918d7c44aa6d04446119a00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad7cb82ae0b9962df4704cb4a1b7e1cd') in 0.380448 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/3J3_AssetsJeu/Ciels/Crepuscule aube.mat
+  artifactKey: Guid(9ba05f538ee36044da5cd2a4f14a8b18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3J3_AssetsJeu/Ciels/Crepuscule aube.mat using Guid(9ba05f538ee36044da5cd2a4f14a8b18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e4d239b6906b527f742e740eda35040') in 0.106852 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/3J3_AssetsJeu/Traffic Essentials Asset Pack/Materials/Detour.mat
+  artifactKey: Guid(8cd8b6bc1d46945ee9adee0f55234e83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3J3_AssetsJeu/Traffic Essentials Asset Pack/Materials/Detour.mat using Guid(8cd8b6bc1d46945ee9adee0f55234e83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87bbfef2060887966b72d34accd45c40') in 0.039786 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Packages/com.unity.render-pipelines.universal/Runtime/Materials/Decal.mat
+  artifactKey: Guid(31d0dcc6f2dd4e4408d18036a2c93862) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.universal/Runtime/Materials/Decal.mat using Guid(31d0dcc6f2dd4e4408d18036a2c93862) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08d6594212c4afe69aabccdd4fd27b2d') in 0.026747 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/3J3_AssetsJeu/Traffic Essentials Asset Pack/Materials/Detourahead Diffuse Color.mat
+  artifactKey: Guid(3c381888500cd4958961de0981e71514) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3J3_AssetsJeu/Traffic Essentials Asset Pack/Materials/Detourahead Diffuse Color.mat using Guid(3c381888500cd4958961de0981e71514) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57d4d45d17a7aa7774c393beff8c363a') in 0.027540 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/3J3_AssetsJeu/Traffic Essentials Asset Pack/Materials/DontWalk.mat
+  artifactKey: Guid(5242988dbba924b089d437209cb92f10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3J3_AssetsJeu/Traffic Essentials Asset Pack/Materials/DontWalk.mat using Guid(5242988dbba924b089d437209cb92f10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba6f009e69eb53211c20a7b79c50be07') in 0.027480 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.063821 seconds.
+  path: Assets/3J3_AssetsJeu/Traffic Essentials Asset Pack/Materials/DTA.mat
+  artifactKey: Guid(ea1e02adec22a4e479d7fe5d03b23527) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3J3_AssetsJeu/Traffic Essentials Asset Pack/Materials/DTA.mat using Guid(ea1e02adec22a4e479d7fe5d03b23527) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa46e7451f1d23a7e66757f6dd30317b') in 0.021841 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/3J3_AssetsJeu/Ciels/Espace etoiles.mat
+  artifactKey: Guid(b9be0c15efe8ad9489fdeead114d8ec5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3J3_AssetsJeu/Ciels/Espace etoiles.mat using Guid(b9be0c15efe8ad9489fdeead114d8ec5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd66c7ded5319fec9a4ef047a8de1fb8') in 0.107290 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Packages/com.unity.searcher/Editor/Resources/FlatSkin/Font/Roboto-Thin.ttf
+  artifactKey: Guid(19a9abb883540be48b75b951a927ae03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.searcher/Editor/Resources/FlatSkin/Font/Roboto-Thin.ttf using Guid(19a9abb883540be48b75b951a927ae03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4831f7eb7757ca843bd4048c48bfc1b') in 0.043937 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/3J3_AssetsJeu/Ciels/Ensoleille.mat
+  artifactKey: Guid(da976b1a4f7ebb949b0f71341e4f1821) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3J3_AssetsJeu/Ciels/Ensoleille.mat using Guid(da976b1a4f7ebb949b0f71341e4f1821) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c438ec7ea672803762f67fca35bcf15') in 0.066477 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Packages/com.unity.searcher/Editor/Resources/FlatSkin/Font/Roboto-Light.ttf
+  artifactKey: Guid(2a29e27936eb547458f646f71125b264) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.searcher/Editor/Resources/FlatSkin/Font/Roboto-Light.ttf using Guid(2a29e27936eb547458f646f71125b264) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c2b1dd56f35875f73f741f0b05d9459') in 0.022512 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Packages/com.unity.searcher/Editor/Resources/FlatSkin/Font/Roboto-LightItalic.ttf
+  artifactKey: Guid(5e63515167650a541b309ba3bfd4db3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.searcher/Editor/Resources/FlatSkin/Font/Roboto-LightItalic.ttf using Guid(5e63515167650a541b309ba3bfd4db3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '077d36365cd1cc31b4e83c9cea747684') in 0.019294 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.975118 seconds.
+  path: Packages/com.unity.searcher/Editor/Resources/FlatSkin/Font/Roboto-BoldItalic.ttf
+  artifactKey: Guid(dfb97a9307a577a41bcacba34b9a7e32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.searcher/Editor/Resources/FlatSkin/Font/Roboto-BoldItalic.ttf using Guid(dfb97a9307a577a41bcacba34b9a7e32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd4864eaccdf9d187a446b50341ebfd5') in 0.039606 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.012253 seconds.
+  path: Packages/com.unity.searcher/Editor/Resources/FlatSkin/Font/Roboto-Black.ttf
+  artifactKey: Guid(1062c701058745940ae5dca6219c64c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.searcher/Editor/Resources/FlatSkin/Font/Roboto-Black.ttf using Guid(1062c701058745940ae5dca6219c64c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '184943def5036e7615963a104fd82e46') in 0.025773 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/3J3_AssetsJeu/Traffic Essentials Asset Pack/Meshes/IntersectionPole.fbx
+  artifactKey: Guid(82174d5760b1044c08087411843af7a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3J3_AssetsJeu/Traffic Essentials Asset Pack/Meshes/IntersectionPole.fbx using Guid(82174d5760b1044c08087411843af7a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6e446311355382c100d9f02a2df6ce8') in 0.091812 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.068178 seconds.
+  path: Assets/3J3_AssetsJeu/Traffic Essentials Asset Pack/Meshes/StreetLight.fbx
+  artifactKey: Guid(e7b20e47143fe46eb8099e354ef54577) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3J3_AssetsJeu/Traffic Essentials Asset Pack/Meshes/StreetLight.fbx using Guid(e7b20e47143fe46eb8099e354ef54577) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd80d52209076cc5871c69dd211e0d3e') in 0.075391 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/3J3_AssetsJeu/TexturesTerrainAvecNormalMap/Materials - Forest Grounds with Bump/ground - Bark Chips - bump.mat
+  artifactKey: Guid(14816d2c3fdbdd84697fe5ec0d6d0513) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3J3_AssetsJeu/TexturesTerrainAvecNormalMap/Materials - Forest Grounds with Bump/ground - Bark Chips - bump.mat using Guid(14816d2c3fdbdd84697fe5ec0d6d0513) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6ddd8be41d5fcfcb4b5262ea314cbf2') in 0.588595 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/3J3_AssetsJeu/TexturesTerrainAvecNormalMap/Materials - Forest Grounds/ground - Cracked Earth.mat
+  artifactKey: Guid(a940515da97e00e4c866f84bdf553c8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3J3_AssetsJeu/TexturesTerrainAvecNormalMap/Materials - Forest Grounds/ground - Cracked Earth.mat using Guid(a940515da97e00e4c866f84bdf553c8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '455124e1179ca64828c67194937d8364') in 0.316701 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/3J3_AssetsJeu/TexturesTerrainAvecNormalMap/Materials - Forest Grounds with Bump/ground - Boggy Marsh - bump.mat
+  artifactKey: Guid(3dad30af44e08324280030bef3e7c671) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3J3_AssetsJeu/TexturesTerrainAvecNormalMap/Materials - Forest Grounds with Bump/ground - Boggy Marsh - bump.mat using Guid(3dad30af44e08324280030bef3e7c671) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3e8a1bf70818084cafb27d187b091c2') in 0.360910 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/3J3_AssetsJeu/TexturesTerrainAvecNormalMap/Materials - Forest Grounds with Bump/ground - Cover Lotsa Green Leaves - bump.mat
+  artifactKey: Guid(c17c876c5855237459bc6e36a68d6a83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3J3_AssetsJeu/TexturesTerrainAvecNormalMap/Materials - Forest Grounds with Bump/ground - Cover Lotsa Green Leaves - bump.mat using Guid(c17c876c5855237459bc6e36a68d6a83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd02d37bd6aca7891db19b5b10b624914') in 0.038568 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/3J3_AssetsJeu/TexturesTerrainAvecNormalMap/Materials - Forest Grounds with Bump/ground - Cracked Earth 2 - bump.mat
+  artifactKey: Guid(5b3e9c48be4a1cb44a017451fadddab6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3J3_AssetsJeu/TexturesTerrainAvecNormalMap/Materials - Forest Grounds with Bump/ground - Cracked Earth 2 - bump.mat using Guid(5b3e9c48be4a1cb44a017451fadddab6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61208de5ebf4c8c8b3dcc96157a4fc65') in 0.045215 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/3J3_AssetsJeu/TexturesTerrainAvecNormalMap/Materials - Forest Grounds/ground - Forest Dry with Green Leaves.mat
+  artifactKey: Guid(376532cfea47d194485c64d4a059f7c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3J3_AssetsJeu/TexturesTerrainAvecNormalMap/Materials - Forest Grounds/ground - Forest Dry with Green Leaves.mat using Guid(376532cfea47d194485c64d4a059f7c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c87c6931c56db483d8564956635720c') in 0.032310 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/3J3_AssetsJeu/TexturesTerrainAvecNormalMap/Materials - Forest Grounds/ground - Cracked Earth 2.mat
+  artifactKey: Guid(219f20f351af4584e837af1ac29aefdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3J3_AssetsJeu/TexturesTerrainAvecNormalMap/Materials - Forest Grounds/ground - Cracked Earth 2.mat using Guid(219f20f351af4584e837af1ac29aefdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3f7f9e9293758c2546f7fa0c8cb829a') in 0.031332 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/3J3_AssetsJeu/TexturesTerrainAvecNormalMap/Materials - Forest Grounds/ground - Fall Leaves on Grass.mat
+  artifactKey: Guid(a36221611054d08499d263087790c545) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3J3_AssetsJeu/TexturesTerrainAvecNormalMap/Materials - Forest Grounds/ground - Fall Leaves on Grass.mat using Guid(a36221611054d08499d263087790c545) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7b1f8fb22cbb7a12da4165c3a491497') in 0.032853 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/3J3_AssetsJeu/TexturesTerrainAvecNormalMap/Materials - Forest Grounds with Bump/ground - Earth with Heart Shapes Leaves - bump.mat
+  artifactKey: Guid(5efdc2601b237f5478779e0702029ad1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3J3_AssetsJeu/TexturesTerrainAvecNormalMap/Materials - Forest Grounds with Bump/ground - Earth with Heart Shapes Leaves - bump.mat using Guid(5efdc2601b237f5478779e0702029ad1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e81876e4b903bdc7350eb405b2432803') in 0.040976 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.681531 seconds.
+  path: Assets/3J3_AssetsJeu/TexturesTerrainAvecNormalMap/Materials - Forest Grounds with Bump/ground - Grass Short - bump.mat
+  artifactKey: Guid(309bbb019cbc3cd47b33123d59c12686) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3J3_AssetsJeu/TexturesTerrainAvecNormalMap/Materials - Forest Grounds with Bump/ground - Grass Short - bump.mat using Guid(309bbb019cbc3cd47b33123d59c12686) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94905cb7bd4995ceead5d0e48820e2d5') in 0.042053 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/3J3_AssetsJeu/TexturesTerrainAvecNormalMap/Materials - Forest Grounds/ground - Green Plants White Flowers.mat
+  artifactKey: Guid(50d2a96a825e307429441c8cdf55dc77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3J3_AssetsJeu/TexturesTerrainAvecNormalMap/Materials - Forest Grounds/ground - Green Plants White Flowers.mat using Guid(50d2a96a825e307429441c8cdf55dc77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1602bb99750b8a9390e30dc81ce590a0') in 0.032044 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/3J3_AssetsJeu/TexturesTerrainAvecNormalMap/Materials - Forest Grounds/ground - Moss Rocks Dirt.mat
+  artifactKey: Guid(589e5a7cf38d6694a94d670949e398e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3J3_AssetsJeu/TexturesTerrainAvecNormalMap/Materials - Forest Grounds/ground - Moss Rocks Dirt.mat using Guid(589e5a7cf38d6694a94d670949e398e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc2c7334ae9b6b2d169bf8b9cf709f8d') in 0.034579 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/3J3_AssetsJeu/TexturesTerrainAvecNormalMap/Materials - Forest Grounds/ground - Mossy Rocks and Leaves 2.mat
+  artifactKey: Guid(b94807acac688f94b94d195d8c1d3e8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3J3_AssetsJeu/TexturesTerrainAvecNormalMap/Materials - Forest Grounds/ground - Mossy Rocks and Leaves 2.mat using Guid(b94807acac688f94b94d195d8c1d3e8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac21d0c48171ce474bdbd12afcab90c8') in 0.035096 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/5JB_Ex3-MiniJeu/Avatars/assets avatars/Materials/Hair1.mat
+  artifactKey: Guid(a4875bd4df00db3468a57c4781de45b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/5JB_Ex3-MiniJeu/Avatars/assets avatars/Materials/Hair1.mat using Guid(a4875bd4df00db3468a57c4781de45b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a18da1febec85026636c52fc6813832b') in 0.023283 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/5JB_Ex3-MiniJeu/Avatars/assets avatars/Materials/Hair5.mat
+  artifactKey: Guid(828f81e69d0e726439c61bf1937e88da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/5JB_Ex3-MiniJeu/Avatars/assets avatars/Materials/Hair5.mat using Guid(828f81e69d0e726439c61bf1937e88da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '692734d26b059854f7dcad992f0d5330') in 0.022025 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/3J3_AssetsJeu/TexturesTerrainAvecNormalMap/Materials - Forest Grounds with Bump/ground - Light Duff 2 - bump.mat
+  artifactKey: Guid(f3296b9cabbe9894aa70abc954f0a6e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3J3_AssetsJeu/TexturesTerrainAvecNormalMap/Materials - Forest Grounds with Bump/ground - Light Duff 2 - bump.mat using Guid(f3296b9cabbe9894aa70abc954f0a6e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5c4c9026fe1889acaeca37ae14e720f') in 0.041398 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/5JB_Ex3-MiniJeu/VRKeys/Materials/KeyDisabledMat.mat
+  artifactKey: Guid(05726c44b31fc344db9d054567e02ee4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/5JB_Ex3-MiniJeu/VRKeys/Materials/KeyDisabledMat.mat using Guid(05726c44b31fc344db9d054567e02ee4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea1dcdaf75d0f8ee3362f1567b9d3fdb') in 0.021715 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/3J3_AssetsJeu/illusionloop.com/road props/Source Models/Materials/road objects low poly 2.mat
+  artifactKey: Guid(a13c3945339843a44bbb3d1e8c068a3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3J3_AssetsJeu/illusionloop.com/road props/Source Models/Materials/road objects low poly 2.mat using Guid(a13c3945339843a44bbb3d1e8c068a3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4dd1078a10653c9a695e56eb278a30aa') in 0.863795 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/3J3_AssetsJeu/TexturesTerrainAvecNormalMap/Materials - Forest Grounds with Bump/ground - Moss and Pine Needles - bump.mat
+  artifactKey: Guid(4f4c693a2c18ef944810d91be9d911f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3J3_AssetsJeu/TexturesTerrainAvecNormalMap/Materials - Forest Grounds with Bump/ground - Moss and Pine Needles - bump.mat using Guid(4f4c693a2c18ef944810d91be9d911f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '853d534572cb1218f3d3f09575b16376') in 0.042130 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/3J3_AssetsJeu/Traffic Essentials Asset Pack/Meshes/CurvedGuardRail1.fbx
+  artifactKey: Guid(817a78ce01755477f98f9c8e7363ceeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3J3_AssetsJeu/Traffic Essentials Asset Pack/Meshes/CurvedGuardRail1.fbx using Guid(817a78ce01755477f98f9c8e7363ceeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ccc2d463205dd5e7712d16b223c9c63') in 0.072353 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/3J3_AssetsJeu/Traffic Essentials Asset Pack/Materials/WhitePaint.mat
+  artifactKey: Guid(d509568613d9340a3aeb9a465a1988a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3J3_AssetsJeu/Traffic Essentials Asset Pack/Materials/WhitePaint.mat using Guid(d509568613d9340a3aeb9a465a1988a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '880d6394fe94d1055d91157f0cba54a7') in 0.021100 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/3J3_AssetsJeu/illusionloop.com/road props/Source Models/Materials/Mobile/road objects low poly 2 - m.mat
+  artifactKey: Guid(bb2b207049ae2904795888f3e9811cbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3J3_AssetsJeu/illusionloop.com/road props/Source Models/Materials/Mobile/road objects low poly 2 - m.mat using Guid(bb2b207049ae2904795888f3e9811cbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fbb08233323686cd4238800b2eb0eb13') in 0.077651 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/3J3_AssetsJeu/TexturesTerrainAvecNormalMap/Materials - Forest Grounds/ground - Sticks and Duff.mat
+  artifactKey: Guid(e494ad850db97dc4983abcd4f4325fe6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3J3_AssetsJeu/TexturesTerrainAvecNormalMap/Materials - Forest Grounds/ground - Sticks and Duff.mat using Guid(e494ad850db97dc4983abcd4f4325fe6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8abf37238dfb1a50541233a24571d5f') in 0.032535 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/3J3_AssetsJeu/_Ressources(Ne pas effacer)/Terrain Assets/Trees Ambient-Occlusion/Materials/mimosabark.mat
+  artifactKey: Guid(a6251c8ecd118f12a000e6888f962b59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3J3_AssetsJeu/_Ressources(Ne pas effacer)/Terrain Assets/Trees Ambient-Occlusion/Materials/mimosabark.mat using Guid(a6251c8ecd118f12a000e6888f962b59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '738b8e45c4b91b5500bb49ba3f769978') in 0.023739 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/3J3_AssetsJeu/RessourcesTerrain/RSC (ne pas utiliser ou effacer)/Stonewall --fait/Materials/wall_med_noVine.mat
+  artifactKey: Guid(18adb3eca52fc20438fec62c48f33c27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3J3_AssetsJeu/RessourcesTerrain/RSC (ne pas utiliser ou effacer)/Stonewall --fait/Materials/wall_med_noVine.mat using Guid(18adb3eca52fc20438fec62c48f33c27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90d4acf5c267c2c80501d058de3e098a') in 0.034106 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/5JB_Ex3-MiniJeu/MainsAnimees/Ressources/Materials/Hands_solid.mat
+  artifactKey: Guid(3637b758ff163493f8bb8b6d7e96d7ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/5JB_Ex3-MiniJeu/MainsAnimees/Ressources/Materials/Hands_solid.mat using Guid(3637b758ff163493f8bb8b6d7e96d7ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66ef2fcd1b9b190cc65aabdd0a3061f5') in 0.023442 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Packages/com.unity.render-pipelines.universal/Runtime/Materials/ParticlesUnlit.mat
+  artifactKey: Guid(e823cd5b5d27c0f4b8256e7c12ee3e6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.universal/Runtime/Materials/ParticlesUnlit.mat using Guid(e823cd5b5d27c0f4b8256e7c12ee3e6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9c24032d6832c2d198970ac53b2df07') in 0.140548 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/3J3_AssetsJeu/TexturesTerrainAvecNormalMap/Materials - Forest Grounds/ground - Leafy Trail.mat
+  artifactKey: Guid(4f8965e9561ce73409522f5fbb37613c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3J3_AssetsJeu/TexturesTerrainAvecNormalMap/Materials - Forest Grounds/ground - Leafy Trail.mat using Guid(4f8965e9561ce73409522f5fbb37613c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce8e8e9631bd551e69f4dde4ba8ff064') in 0.032937 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Packages/com.unity.render-pipelines.universal/Shaders/AutodeskInteractive/AutodeskInteractive.shadergraph
+  artifactKey: Guid(0e9d5a909a1f7e84882a534d0d11e49f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.universal/Shaders/AutodeskInteractive/AutodeskInteractive.shadergraph using Guid(0e9d5a909a1f7e84882a534d0d11e49f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec39c036887fcd0ff6d0802765dc729f') in 0.851423 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/5JB_Ex3-MiniJeu/Reticule/ressourcesReticule/MaterialReticule.mat
+  artifactKey: Guid(3c720f35af0ebc0448291a4ed5d9e7e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/5JB_Ex3-MiniJeu/Reticule/ressourcesReticule/MaterialReticule.mat using Guid(3c720f35af0ebc0448291a4ed5d9e7e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b88cb6a4e6c98fe66cad64f79fdf2142') in 0.355330 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/3J3_AssetsJeu/illusionloop.com/road props/Source Models/Materials/road objects low poly 2 alpha.mat
+  artifactKey: Guid(6bc58838f4d76234b8a449ead9b27f9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3J3_AssetsJeu/illusionloop.com/road props/Source Models/Materials/road objects low poly 2 alpha.mat using Guid(6bc58838f4d76234b8a449ead9b27f9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7f6023edd6457b317801511209c8d4a') in 0.427609 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/3J3_AssetsJeu/Traffic Essentials Asset Pack/Materials/Wood 2.mat
+  artifactKey: Guid(68eac1b4aaf724c3d91296bc5dcfbde3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3J3_AssetsJeu/Traffic Essentials Asset Pack/Materials/Wood 2.mat using Guid(68eac1b4aaf724c3d91296bc5dcfbde3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '985bf9e2839f7b2c07d0b1f288a5be28') in 0.021658 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/3J3_AssetsJeu/TexturesTerrainAvecNormalMap/Materials - Forest Grounds/ground - Winter Oak Leaves Decayed.mat
+  artifactKey: Guid(d044152373b3b1e43855e0719649b444) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3J3_AssetsJeu/TexturesTerrainAvecNormalMap/Materials - Forest Grounds/ground - Winter Oak Leaves Decayed.mat using Guid(d044152373b3b1e43855e0719649b444) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2cbf00d070ddbffc6b9406927e9bfd7') in 0.030096 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/3J3_AssetsJeu/Traffic Essentials Asset Pack/Materials/OneWay.mat
+  artifactKey: Guid(a7f581ee24cd04ff990fb4a79b01931b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3J3_AssetsJeu/Traffic Essentials Asset Pack/Materials/OneWay.mat using Guid(a7f581ee24cd04ff990fb4a79b01931b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e14b34bcd6028f7ea75b77084b5b768') in 0.036366 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/3J3_AssetsJeu/RessourcesTerrain/RSC (ne pas utiliser ou effacer)/Stone -- fait/Materials/stone_D.mat
+  artifactKey: Guid(353c197d58a213c4caf8d83ce2caf528) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3J3_AssetsJeu/RessourcesTerrain/RSC (ne pas utiliser ou effacer)/Stone -- fait/Materials/stone_D.mat using Guid(353c197d58a213c4caf8d83ce2caf528) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bdbe0eed69f6baac1accef5a7b0359fc') in 0.040971 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/3J3_AssetsJeu/TexturesTerrainAvecNormalMap/Materials - Forest Grounds/ground - Thick Ivy.mat
+  artifactKey: Guid(00de51ee0a2ccc7469338c330d39b14a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3J3_AssetsJeu/TexturesTerrainAvecNormalMap/Materials - Forest Grounds/ground - Thick Ivy.mat using Guid(00de51ee0a2ccc7469338c330d39b14a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '418e06e21e16526be8bb805395c943f5') in 0.029697 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/3J3_AssetsJeu/_Ressources(Ne pas effacer)/Terrain Assets/Trees Ambient-Occlusion/Materials/japanesebark.mat
+  artifactKey: Guid(08e6534abd11e9f9a0003c6b8f962b59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3J3_AssetsJeu/_Ressources(Ne pas effacer)/Terrain Assets/Trees Ambient-Occlusion/Materials/japanesebark.mat using Guid(08e6534abd11e9f9a0003c6b8f962b59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f4acdff781b8dd12c22f757844e63af') in 0.024294 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/3J3_AssetsJeu/TexturesTerrainAvecNormalMap/Materials - Forest Grounds with Bump/ground - Winter Oak Leaves - bump.mat
+  artifactKey: Guid(0767790b062a6c946a81f10cf7d90c02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3J3_AssetsJeu/TexturesTerrainAvecNormalMap/Materials - Forest Grounds with Bump/ground - Winter Oak Leaves - bump.mat using Guid(0767790b062a6c946a81f10cf7d90c02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9be42c1a896be3d27a7d5c965246cf05') in 0.041925 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/3J3_AssetsJeu/Traffic Essentials Asset Pack/Meshes/Trisign.fbx
+  artifactKey: Guid(dc2d282cd01534725a09dfc6765bcb14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3J3_AssetsJeu/Traffic Essentials Asset Pack/Meshes/Trisign.fbx using Guid(dc2d282cd01534725a09dfc6765bcb14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e59b577d77d01770eb823735e594706') in 0.089386 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/3J3_AssetsJeu/RessourcesTerrain/RSC (ne pas utiliser ou effacer)/Single_rock -- fait/3dobjects_FBX/Materials/single_rock-felsbrocken_01a.mat
+  artifactKey: Guid(cc074d94325fb3641b0c6a518cac9890) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3J3_AssetsJeu/RessourcesTerrain/RSC (ne pas utiliser ou effacer)/Single_rock -- fait/3dobjects_FBX/Materials/single_rock-felsbrocken_01a.mat using Guid(cc074d94325fb3641b0c6a518cac9890) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7707964479c66cfd342424f6830ea46') in 0.063672 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/3J3_AssetsJeu/Traffic Essentials Asset Pack/Materials/Slippery.mat
+  artifactKey: Guid(1f63a9eb73d7b4ff782d3335a8197da4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3J3_AssetsJeu/Traffic Essentials Asset Pack/Materials/Slippery.mat using Guid(1f63a9eb73d7b4ff782d3335a8197da4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a989df8fef163aaca0d91a88096e1570') in 0.036390 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/3J3_AssetsJeu/RessourcesTerrain/RSC (ne pas utiliser ou effacer)/Nobiax Free Rocks --fait/meshes/05/Materials/rock_05Mat.mat
+  artifactKey: Guid(55530e5f4ea5c1642bf41515bc16f9a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3J3_AssetsJeu/RessourcesTerrain/RSC (ne pas utiliser ou effacer)/Nobiax Free Rocks --fait/meshes/05/Materials/rock_05Mat.mat using Guid(55530e5f4ea5c1642bf41515bc16f9a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1895522309ed6ef7eee881b44cd66802') in 0.047343 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/3J3_AssetsJeu/Traffic Essentials Asset Pack/Materials/Yield.mat
+  artifactKey: Guid(4925b6bcce1dc4b2b8febc4d948d4c3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3J3_AssetsJeu/Traffic Essentials Asset Pack/Materials/Yield.mat using Guid(4925b6bcce1dc4b2b8febc4d948d4c3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88a9df0159f9835c2bbf80bda5093f86') in 0.025478 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/5JB_Ex3-MiniJeu/Avatars/assets avatars/Materials/Hair3.mat
+  artifactKey: Guid(f9048364d0ddad2429aa3710bbb91251) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/5JB_Ex3-MiniJeu/Avatars/assets avatars/Materials/Hair3.mat using Guid(f9048364d0ddad2429aa3710bbb91251) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8de067eeec6a594e9bddcfe522ee1477') in 0.019002 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/3J3_AssetsJeu/Traffic Essentials Asset Pack/Meshes/StraightGuardRail.fbx
+  artifactKey: Guid(e2e50c12d08864c7e84c985f6c47b9e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3J3_AssetsJeu/Traffic Essentials Asset Pack/Meshes/StraightGuardRail.fbx using Guid(e2e50c12d08864c7e84c985f6c47b9e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1da550b6ae5fab960c21f1e0aecb7eb8') in 0.067270 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/3J3_AssetsJeu/RessourcesTerrain/RSC (ne pas utiliser ou effacer)/Nobiax Free Rocks --fait/meshes/03/Materials/rock_03Mat.mat
+  artifactKey: Guid(2e08fe5be185e6c4aac3ea670ecd5492) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3J3_AssetsJeu/RessourcesTerrain/RSC (ne pas utiliser ou effacer)/Nobiax Free Rocks --fait/meshes/03/Materials/rock_03Mat.mat using Guid(2e08fe5be185e6c4aac3ea670ecd5492) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7acd3e4295bda71b6040b95dc36406f') in 0.055788 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/3J3_AssetsJeu/_Ressources(Ne pas effacer)/Terrain Assets/Trees Ambient-Occlusion/Materials/willowbark.mat
+  artifactKey: Guid(abef6f4dbd110e38a00062d88f962b59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3J3_AssetsJeu/_Ressources(Ne pas effacer)/Terrain Assets/Trees Ambient-Occlusion/Materials/willowbark.mat using Guid(abef6f4dbd110e38a00062d88f962b59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f3f3d9d1e5d3d5fb2614691a8fd124e') in 0.029340 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/3J3_AssetsJeu/TexturesTerrainAvecNormalMap/Materials - Forest Grounds with Bump/ground - Hilly Undergrowth - bump.mat
+  artifactKey: Guid(60d312785fbcc2048817263cbe7e076b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3J3_AssetsJeu/TexturesTerrainAvecNormalMap/Materials - Forest Grounds with Bump/ground - Hilly Undergrowth - bump.mat using Guid(60d312785fbcc2048817263cbe7e076b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f6522237d53549b6eb64a44b2b11dbb') in 0.056788 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/5JB_Ex3-MiniJeu/Quille.mat
+  artifactKey: Guid(b52c2b52024d6b64cb91f014b6268aaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/5JB_Ex3-MiniJeu/Quille.mat using Guid(b52c2b52024d6b64cb91f014b6268aaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82e7d7df51bd6d31c817b3011846a42d') in 0.021003 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/3J3_AssetsJeu/TexturesTerrainAvecNormalMap/Materials - Forest Grounds/ground - Winter Oak Leaves.mat
+  artifactKey: Guid(b523fb16708d31046a411d1c35237b3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3J3_AssetsJeu/TexturesTerrainAvecNormalMap/Materials - Forest Grounds/ground - Winter Oak Leaves.mat using Guid(b523fb16708d31046a411d1c35237b3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '442ee2a52d136e301fd24764e0aa6b3b') in 0.030847 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/3J3_AssetsJeu/illusionloop.com/road props/Source Models/Materials/Mobile/road objects low poly - m.mat
+  artifactKey: Guid(6be6d9bdd7677a443a078151d09db7b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3J3_AssetsJeu/illusionloop.com/road props/Source Models/Materials/Mobile/road objects low poly - m.mat using Guid(6be6d9bdd7677a443a078151d09db7b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c395fe86c5d98c361d4d3629dbb066e0') in 0.097512 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/3J3_AssetsJeu/Traffic Essentials Asset Pack/Meshes/MetalPole.fbx
+  artifactKey: Guid(a674b978e2c034bd9a1c486803b30953) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3J3_AssetsJeu/Traffic Essentials Asset Pack/Meshes/MetalPole.fbx using Guid(a674b978e2c034bd9a1c486803b30953) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa168fb473cee278150853075cd4bc0a') in 0.079771 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
