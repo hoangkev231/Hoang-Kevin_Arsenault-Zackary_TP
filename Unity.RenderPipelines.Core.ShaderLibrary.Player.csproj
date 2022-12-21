@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{4534F906-9015-3FE5-8920-0CF60385D129}</ProjectGuid>
+    <ProjectGuid>{1B48C92D-28FD-6275-9746-BCC3F3C6D1D5}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Unity.RenderPipelines.Core.ShaderLibrary</AssemblyName>
@@ -703,7 +703,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="UnityEngine.UI.Player.csproj">
-      <Project>{DCE7C402-AA54-3624-D6E6-D625B6D1FF80}</Project>
+      <Project>{F7B1023C-5DDC-8857-3C47-B35C2893AF17}</Project>
       <Name>UnityEngine.UI.Player</Name>
     </ProjectReference>
   </ItemGroup>

@@ -1,0 +1,512 @@
+Using pre-set license
+Built from '2022.1/staging' branch; Version is '2022.1.12f1 (916d9c03b898) revision 9530780'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19044) 64bit Education' Language: 'fr' Physical Memory: 32481 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity 2022.1.12f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker6
+-projectPath
+D:/College Work 5/5JB - Exp/Hoang-Kevin_Arsenault-Zackary_TP
+-logFile
+Logs/AssetImportWorker6.log
+-srvPort
+53471
+Successfully changed project path to: D:/College Work 5/5JB - Exp/Hoang-Kevin_Arsenault-Zackary_TP
+D:/College Work 5/5JB - Exp/Hoang-Kevin_Arsenault-Zackary_TP
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 106.93 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 1.14 ms.
+Initialize engine version: 2022.1.12f1 (916d9c03b898)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity 2022.1.12f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/College Work 5/5JB - Exp/Hoang-Kevin_Arsenault-Zackary_TP/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3070 (ID=0x2488)
+    Vendor:   NVIDIA
+    VRAM:     8043 MB
+    Driver:   30.0.15.1215
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity 2022.1.12f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity 2022.1.12f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity 2022.1.12f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56528
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity 2022.1.12f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity 2022.1.12f1/Editor/Data/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity 2022.1.12f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity 2022.1.12f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity 2022.1.12f1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll
+Registered in 0.006687 seconds.
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 128.75 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.05 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.718 seconds
+Domain Reload Profiling:
+	ReloadAssembly (718ms)
+		BeginReloadAssembly (77ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (539ms)
+			LoadAssemblies (74ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (130ms)
+				TypeCache.Initialize (130ms)
+					TypeCache.ScanAssembly (129ms)
+				ResolveRequiredComponents (0ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (27ms)
+			SetupLoadedEditorAssemblies (329ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (46ms)
+				SetLoadedEditorAssemblies (6ms)
+				RefreshPlugins (129ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (105ms)
+				ProcessInitializeOnLoadMethodAttributes (41ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.006924 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\College Work 5\5JB - Exp\Hoang-Kevin_Arsenault-Zackary_TP\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\College Work 5\5JB - Exp\Hoang-Kevin_Arsenault-Zackary_TP\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 104.57 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.05 ms.
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0003d] in D:\College Work 5\5JB - Exp\Hoang-Kevin_Arsenault-Zackary_TP\Library\PackageCache\com.unity.xr.oculus@3.0.2\Runtime\OculusLoader.cs:271 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in D:\College Work 5\5JB - Exp\Hoang-Kevin_Arsenault-Zackary_TP\Library\PackageCache\com.unity.xr.oculus@3.0.2\Runtime\OculusLoader.cs:256 
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <f3aec01a34d14c7080754e28743c8472>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00083] in <f3aec01a34d14c7080754e28743c8472>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <f3aec01a34d14c7080754e28743c8472>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x000a5] in <a01bf2e497e84ae285aeb97a3052e6cc>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Completed reload, in  5.777 seconds
+Domain Reload Profiling:
+	ReloadAssembly (5778ms)
+		BeginReloadAssembly (102ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (17ms)
+		EndReloadAssembly (5554ms)
+			LoadAssemblies (3227ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (715ms)
+				TypeCache.Initialize (704ms)
+					TypeCache.ScanAssembly (699ms)
+				ResolveRequiredComponents (11ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (58ms)
+			SetupLoadedEditorAssemblies (1513ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (14ms)
+				SetLoadedEditorAssemblies (4ms)
+				RefreshPlugins (105ms)
+				BeforeProcessingInitializeOnLoad (98ms)
+				ProcessInitializeOnLoadAttributes (360ms)
+				ProcessInitializeOnLoadMethodAttributes (924ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 1.03 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.05 ms.
+Unloading 5981 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 36 unused Assets / (65.0 KB). Loaded Objects now: 6459.
+Memory consumption went from 0.93 GB to 0.93 GB.
+Total: 3.975900 ms (FindLiveObjects: 0.524700 ms CreateObjectMapping: 0.618100 ms MarkObjects: 2.696000 ms  DeleteObjects: 0.135800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 211475.959836 seconds.
+  path: Packages/com.unity.searcher/Editor/Resources/FlatSkin/Font/Roboto-Italic.ttf
+  artifactKey: Guid(c839255fc8f6b4b4d90bf8c1af9f9bd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.searcher/Editor/Resources/FlatSkin/Font/Roboto-Italic.ttf using Guid(c839255fc8f6b4b4d90bf8c1af9f9bd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7dbdd30722693d1d6e0812e6611be80a') in 0.266944 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/3J3_AssetsJeu/Traffic Essentials Asset Pack/Materials/GreenLight.mat
+  artifactKey: Guid(27507546ca8484a42b7e0e58d3012887) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3J3_AssetsJeu/Traffic Essentials Asset Pack/Materials/GreenLight.mat using Guid(27507546ca8484a42b7e0e58d3012887) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b108ab384e204f7b19084607a6c9e1e3') in 0.345426 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/3J3_AssetsJeu/TexturesTerrainAvecNormalMap/Materials - Forest Grounds/ground - Dead Skinny Leaves.mat
+  artifactKey: Guid(44efe94376623f04ab4098f97b45456d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3J3_AssetsJeu/TexturesTerrainAvecNormalMap/Materials - Forest Grounds/ground - Dead Skinny Leaves.mat using Guid(44efe94376623f04ab4098f97b45456d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ee828cc875fb3c4ddba0ee1557155ad') in 0.379886 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/3J3_AssetsJeu/TexturesTerrainAvecNormalMap/Materials - Forest Grounds/ground - Cover Red Green.mat
+  artifactKey: Guid(fa58af3a8fd90754791cc319942faf68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3J3_AssetsJeu/TexturesTerrainAvecNormalMap/Materials - Forest Grounds/ground - Cover Red Green.mat using Guid(fa58af3a8fd90754791cc319942faf68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '886a72e46dc2b8f4f8076a5ec350834d') in 0.038824 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/3J3_AssetsJeu/TexturesTerrainAvecNormalMap/Materials - Forest Grounds with Bump/ground - Dead Skinny Leaves - bump.mat
+  artifactKey: Guid(3d7f627b3667a924d9217156f8d21e54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3J3_AssetsJeu/TexturesTerrainAvecNormalMap/Materials - Forest Grounds with Bump/ground - Dead Skinny Leaves - bump.mat using Guid(3d7f627b3667a924d9217156f8d21e54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0f604afe817d7daac961c1542be8850') in 0.532272 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/3J3_AssetsJeu/TexturesTerrainAvecNormalMap/Materials - Forest Grounds/ground - Grass Long Green.mat
+  artifactKey: Guid(df483d6540fd2724586298ab6ad1384c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3J3_AssetsJeu/TexturesTerrainAvecNormalMap/Materials - Forest Grounds/ground - Grass Long Green.mat using Guid(df483d6540fd2724586298ab6ad1384c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2f2340f2b6645eaf7759a2058ca2548') in 0.034978 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/3J3_AssetsJeu/TexturesTerrainAvecNormalMap/Materials - Forest Grounds with Bump/ground - Dense Pointy Leaves - bump.mat
+  artifactKey: Guid(3feb188b8d10acf4b8740b9c03d9c896) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3J3_AssetsJeu/TexturesTerrainAvecNormalMap/Materials - Forest Grounds with Bump/ground - Dense Pointy Leaves - bump.mat using Guid(3feb188b8d10acf4b8740b9c03d9c896) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a175df329eb7f085f9b640dbe42ecc0') in 0.045611 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/3J3_AssetsJeu/TexturesTerrainAvecNormalMap/Materials - Forest Grounds with Bump/ground - Dense Leaves Tiny Purple Flowers - bump.mat
+  artifactKey: Guid(19cf6a3078c2a5d41972c0e44a45237a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3J3_AssetsJeu/TexturesTerrainAvecNormalMap/Materials - Forest Grounds with Bump/ground - Dense Leaves Tiny Purple Flowers - bump.mat using Guid(19cf6a3078c2a5d41972c0e44a45237a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02c6cdcb6efbf3dbdce6a635c0f0a268') in 0.038534 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/3J3_AssetsJeu/TexturesTerrainAvecNormalMap/Materials - Forest Grounds with Bump/ground - Dry Earth Dry Grass - bump.mat
+  artifactKey: Guid(7e0c3c91206edad40abfbb6879edb184) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3J3_AssetsJeu/TexturesTerrainAvecNormalMap/Materials - Forest Grounds with Bump/ground - Dry Earth Dry Grass - bump.mat using Guid(7e0c3c91206edad40abfbb6879edb184) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e68c768cc6773c5649e78b16a057b5cf') in 0.044994 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/3J3_AssetsJeu/TexturesTerrainAvecNormalMap/Materials - Forest Grounds with Bump/ground - Dense Cover Green Lt Green - bump.mat
+  artifactKey: Guid(afd4a28b7eb3d5b4ba500450ad4f6f94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3J3_AssetsJeu/TexturesTerrainAvecNormalMap/Materials - Forest Grounds with Bump/ground - Dense Cover Green Lt Green - bump.mat using Guid(afd4a28b7eb3d5b4ba500450ad4f6f94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe6886b1732e58ea38272650b7660125') in 0.043150 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/3J3_AssetsJeu/TexturesTerrainAvecNormalMap/Materials - Forest Grounds with Bump/ground - Brambles - bump.mat
+  artifactKey: Guid(99c20fed244ec2a44a2f817bff329921) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3J3_AssetsJeu/TexturesTerrainAvecNormalMap/Materials - Forest Grounds with Bump/ground - Brambles - bump.mat using Guid(99c20fed244ec2a44a2f817bff329921) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cbd8bc54081fda1d06ebc83190bc0c94') in 0.042837 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.682334 seconds.
+  path: Assets/3J3_AssetsJeu/TexturesTerrainAvecNormalMap/Materials - Forest Grounds/ground - Grass Short.mat
+  artifactKey: Guid(4f8a8296ea96cce47a63a66c2b9bf461) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3J3_AssetsJeu/TexturesTerrainAvecNormalMap/Materials - Forest Grounds/ground - Grass Short.mat using Guid(4f8a8296ea96cce47a63a66c2b9bf461) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9de54893252a5b5f82333be24e3b9132') in 0.033708 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/3J3_AssetsJeu/TexturesTerrainAvecNormalMap/Materials - Forest Grounds/ground - Green Shoots.mat
+  artifactKey: Guid(1d8a73e9df88a7f4f8a36699027c388b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3J3_AssetsJeu/TexturesTerrainAvecNormalMap/Materials - Forest Grounds/ground - Green Shoots.mat using Guid(1d8a73e9df88a7f4f8a36699027c388b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c465c96593659647dab4b3035f50904b') in 0.031006 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/3J3_AssetsJeu/TexturesTerrainAvecNormalMap/Materials - Forest Grounds with Bump/ground - Light Duff - bump.mat
+  artifactKey: Guid(d2c8d04af6e336348821071fe5a0d238) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3J3_AssetsJeu/TexturesTerrainAvecNormalMap/Materials - Forest Grounds with Bump/ground - Light Duff - bump.mat using Guid(d2c8d04af6e336348821071fe5a0d238) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56251cb34fce6cb1271c19b5797ef9c9') in 0.046839 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/3J3_AssetsJeu/TexturesTerrainAvecNormalMap/Materials - Forest Grounds/ground - Pine Boughs.mat
+  artifactKey: Guid(3c1388499e4f2494cb2f89f1c32ae4cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3J3_AssetsJeu/TexturesTerrainAvecNormalMap/Materials - Forest Grounds/ground - Pine Boughs.mat using Guid(3c1388499e4f2494cb2f89f1c32ae4cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6db95aa1b8e242e91ddcb55ec016556') in 0.037441 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/5JB_Ex3-MiniJeu/VRKeys/Materials/KeyInactiveMat.mat
+  artifactKey: Guid(021552db260a9654ea7d9d472e44eb58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/5JB_Ex3-MiniJeu/VRKeys/Materials/KeyInactiveMat.mat using Guid(021552db260a9654ea7d9d472e44eb58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41852629547f7b7fd4c7bb3a1540e132') in 0.023747 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/3J3_AssetsJeu/TexturesTerrainAvecNormalMap/Materials - Forest Grounds with Bump/ground - Winter Oak Leaves 2 - bump.mat
+  artifactKey: Guid(b07daec9986183c439c26fd594e0e6bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3J3_AssetsJeu/TexturesTerrainAvecNormalMap/Materials - Forest Grounds with Bump/ground - Winter Oak Leaves 2 - bump.mat using Guid(b07daec9986183c439c26fd594e0e6bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5fce24b496c58c87331819ff7ba04705') in 0.047008 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/3J3_AssetsJeu/RessourcesTerrain/RSC (ne pas utiliser ou effacer)/Nobiax Free Rocks --fait/meshes/02/Materials/No Name.mat
+  artifactKey: Guid(47d20c2b42fc10e45a27761d32e3345b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3J3_AssetsJeu/RessourcesTerrain/RSC (ne pas utiliser ou effacer)/Nobiax Free Rocks --fait/meshes/02/Materials/No Name.mat using Guid(47d20c2b42fc10e45a27761d32e3345b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8911d81aaffa90f93b725782164d43da') in 0.020620 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/3J3_AssetsJeu/illusionloop.com/road props/Source Models/Materials/road objects low poly.mat
+  artifactKey: Guid(e55a4622525b5084caa7b92a958e5df0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3J3_AssetsJeu/illusionloop.com/road props/Source Models/Materials/road objects low poly.mat using Guid(e55a4622525b5084caa7b92a958e5df0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3f9c84410635726038552022a77a3ac') in 0.876550 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/3J3_AssetsJeu/Traffic Essentials Asset Pack/Materials/MeterStickers 1.mat
+  artifactKey: Guid(38ee31cef22ac4d7ab3ea78e8c0347ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3J3_AssetsJeu/Traffic Essentials Asset Pack/Materials/MeterStickers 1.mat using Guid(38ee31cef22ac4d7ab3ea78e8c0347ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0aa4d1c7e5ed88c5d42153d29e768052') in 0.027791 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/3J3_AssetsJeu/RessourcesTerrain/RSC (ne pas utiliser ou effacer)/Terrain Assets/Rocks/Materials/rockmesh-rockmat.mat
+  artifactKey: Guid(8af33a4120ac4486ba927ecb5d9bb635) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3J3_AssetsJeu/RessourcesTerrain/RSC (ne pas utiliser ou effacer)/Terrain Assets/Rocks/Materials/rockmesh-rockmat.mat using Guid(8af33a4120ac4486ba927ecb5d9bb635) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09edeb8ac349f2c86e095c8d40af7ee9') in 0.029765 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Packages/com.unity.render-pipelines.universal/Runtime/Materials/ArnoldStandardSurface/ArnoldStandardSurfaceTransparent.shadergraph
+  artifactKey: Guid(30fa68ce467463643a86b839ca0eb195) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.universal/Runtime/Materials/ArnoldStandardSurface/ArnoldStandardSurfaceTransparent.shadergraph using Guid(30fa68ce467463643a86b839ca0eb195) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4f89b806bdfe28d039e451ec0f21c2e') in 0.664895 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/3J3_AssetsJeu/Traffic Essentials Asset Pack/Materials/OneWay 1.mat
+  artifactKey: Guid(c3aca3c91bf9042c9aa3acce6a61a7b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3J3_AssetsJeu/Traffic Essentials Asset Pack/Materials/OneWay 1.mat using Guid(c3aca3c91bf9042c9aa3acce6a61a7b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bba844b2d5b529dc550172def1927fd6') in 0.036669 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/3J3_AssetsJeu/TexturesTerrainAvecNormalMap/Materials - Forest Grounds/ground - Meadow Grass Tiny Flowers.mat
+  artifactKey: Guid(cea2af12f7674394a88b50132fd20bab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3J3_AssetsJeu/TexturesTerrainAvecNormalMap/Materials - Forest Grounds/ground - Meadow Grass Tiny Flowers.mat using Guid(cea2af12f7674394a88b50132fd20bab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0b3dfff9d1239f53d6d0ea66834bd92') in 0.030273 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/3J3_AssetsJeu/TexturesTerrainAvecNormalMap/Materials - Forest Grounds with Bump/ground - Pine Boughs - bump.mat
+  artifactKey: Guid(4df7ae1b67513b84aa74497da5cf2030) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3J3_AssetsJeu/TexturesTerrainAvecNormalMap/Materials - Forest Grounds with Bump/ground - Pine Boughs - bump.mat using Guid(4df7ae1b67513b84aa74497da5cf2030) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d33b053bf2580f19b1c3aef44dc8c6d') in 0.042858 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/3J3_AssetsJeu/NVJOB Water Shader SAF/Example Scenes/Materials/Water/Water Type 1.mat
+  artifactKey: Guid(a4e4ba7cc8cbbef4894479b49596b515) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3J3_AssetsJeu/NVJOB Water Shader SAF/Example Scenes/Materials/Water/Water Type 1.mat using Guid(a4e4ba7cc8cbbef4894479b49596b515) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ad2d75190705352e46106dd2d4e74e1') in 0.188031 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/5JB_Ex3-MiniJeu/VRKeys/Materials/KeyActiveMat.mat
+  artifactKey: Guid(157abfb689445624c97d685110ed6172) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/5JB_Ex3-MiniJeu/VRKeys/Materials/KeyActiveMat.mat using Guid(157abfb689445624c97d685110ed6172) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ccfb7fb53e5469b2f035136e17487f1') in 0.017351 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/3J3_AssetsJeu/RessourcesTerrain/RSC (ne pas utiliser ou effacer)/RockBlobs -- fait/Materials/RockJagged0021Diffuse.mat
+  artifactKey: Guid(a8c523419baf34ffaba4f488cba7df1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3J3_AssetsJeu/RessourcesTerrain/RSC (ne pas utiliser ou effacer)/RockBlobs -- fait/Materials/RockJagged0021Diffuse.mat using Guid(a8c523419baf34ffaba4f488cba7df1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d05a072503ac870e15fb153368db758') in 0.020391 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/3J3_AssetsJeu/Traffic Essentials Asset Pack/Materials/RustySteel 1.mat
+  artifactKey: Guid(66b71c98508f346c9acca9825b01b4fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3J3_AssetsJeu/Traffic Essentials Asset Pack/Materials/RustySteel 1.mat using Guid(66b71c98508f346c9acca9825b01b4fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9ea90c8cf6096b83ed0e0de1fd324fd') in 0.364359 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/3J3_AssetsJeu/Traffic Essentials Asset Pack/Materials/RustySteel.mat
+  artifactKey: Guid(413e570e7937649fd994f92b1d085a5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3J3_AssetsJeu/Traffic Essentials Asset Pack/Materials/RustySteel.mat using Guid(413e570e7937649fd994f92b1d085a5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd702567fd160a0316031bada07032fcc') in 0.037394 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/3J3_AssetsJeu/RessourcesTerrain/RSC (ne pas utiliser ou effacer)/Stonewall --fait/Materials/vine_med.mat
+  artifactKey: Guid(768b0d37a6bc5a444b58f5b722061a1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3J3_AssetsJeu/RessourcesTerrain/RSC (ne pas utiliser ou effacer)/Stonewall --fait/Materials/vine_med.mat using Guid(768b0d37a6bc5a444b58f5b722061a1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d847999dd884a2400ee2b1661d9c112') in 0.304379 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/3J3_AssetsJeu/Traffic Essentials Asset Pack/Meshes/100Slsign.fbx
+  artifactKey: Guid(8935d456f0a48414fadd5c6cbbecab52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3J3_AssetsJeu/Traffic Essentials Asset Pack/Meshes/100Slsign.fbx using Guid(8935d456f0a48414fadd5c6cbbecab52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27a7e6ed6a7089ae4c88cbc01917f083') in 0.234702 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/3J3_AssetsJeu/_Ressources(Ne pas effacer)/Water/Water/Materials/WaterProDaytime.mat
+  artifactKey: Guid(7350b65a6431f604a8496c39db1ac9c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3J3_AssetsJeu/_Ressources(Ne pas effacer)/Water/Water/Materials/WaterProDaytime.mat using Guid(7350b65a6431f604a8496c39db1ac9c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '650e313574fd281f0fb82fa6a6f271a4') in 0.029987 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/3J3_AssetsJeu/TexturesTerrainAvecNormalMap/Materials - Forest Grounds with Bump/ground - Sticks and Duff - bump.mat
+  artifactKey: Guid(14198fdb656f3f94c97cadda47cb1291) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3J3_AssetsJeu/TexturesTerrainAvecNormalMap/Materials - Forest Grounds with Bump/ground - Sticks and Duff - bump.mat using Guid(14198fdb656f3f94c97cadda47cb1291) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ffc97658a0e7f33e9a380d9caf3162e7') in 0.041988 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/3J3_AssetsJeu/Traffic Essentials Asset Pack/Materials/RightTurn.mat
+  artifactKey: Guid(ab17ede91ddf84f4087cef8f1acef3da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3J3_AssetsJeu/Traffic Essentials Asset Pack/Materials/RightTurn.mat using Guid(ab17ede91ddf84f4087cef8f1acef3da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c2f6fe24816eb5d877d5d7936b8d195') in 0.034031 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Packages/com.unity.render-pipelines.universal/Runtime/Materials/Sprite-Unlit-Default.mat
+  artifactKey: Guid(9dfc825aed78fcd4ba02077103263b40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.universal/Runtime/Materials/Sprite-Unlit-Default.mat using Guid(9dfc825aed78fcd4ba02077103263b40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '985aa827d842a1585abd0159a97caff1') in 0.019336 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/3J3_AssetsJeu/_Ressources(Ne pas effacer)/Terrain Assets/Trees Ambient-Occlusion/Materials/japanesemaplebranch.mat
+  artifactKey: Guid(6bc6734abd11e9f9a0003c6b8f962b59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3J3_AssetsJeu/_Ressources(Ne pas effacer)/Terrain Assets/Trees Ambient-Occlusion/Materials/japanesemaplebranch.mat using Guid(6bc6734abd11e9f9a0003c6b8f962b59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a481013b21cb85e79f30b9cf17a733f8') in 0.027822 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/3J3_AssetsJeu/RessourcesTerrain/RSC (ne pas utiliser ou effacer)/Nobiax Free Rocks --fait/meshes/04/Materials/rock_04Mat.mat
+  artifactKey: Guid(65ca77e56d8f38546bc929e0cb0f8205) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3J3_AssetsJeu/RessourcesTerrain/RSC (ne pas utiliser ou effacer)/Nobiax Free Rocks --fait/meshes/04/Materials/rock_04Mat.mat using Guid(65ca77e56d8f38546bc929e0cb0f8205) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d139ea75abe8fa6160f61d0d562efb5') in 0.058089 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/3J3_AssetsJeu/TexturesTerrainAvecNormalMap/Materials - Forest Grounds/ground - Moss with Dry Leaves.mat
+  artifactKey: Guid(effd1f1a1f914e5409abce5f3377c02d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3J3_AssetsJeu/TexturesTerrainAvecNormalMap/Materials - Forest Grounds/ground - Moss with Dry Leaves.mat using Guid(effd1f1a1f914e5409abce5f3377c02d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8640bc1289f25aa1139c70193ed23bbc') in 0.031291 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/3J3_AssetsJeu/TexturesTerrainAvecNormalMap/Materials - Forest Grounds with Bump/ground - Thick Ivy - bump.mat
+  artifactKey: Guid(0617d201321b37049bfc7f474ed02e3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3J3_AssetsJeu/TexturesTerrainAvecNormalMap/Materials - Forest Grounds with Bump/ground - Thick Ivy - bump.mat using Guid(0617d201321b37049bfc7f474ed02e3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dac93dd6017c92c7bfbaeb5d2b32887e') in 0.041329 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/3J3_AssetsJeu/Ciels/Nuageux.mat
+  artifactKey: Guid(931987be26c9646429c56f8a4692bb81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3J3_AssetsJeu/Ciels/Nuageux.mat using Guid(931987be26c9646429c56f8a4692bb81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1919eaa7dae72967745abddc38e5b527') in 0.197004 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/3J3_AssetsJeu/RessourcesTerrain/RSC (ne pas utiliser ou effacer)/Single_rock -- fait/3dobjects_FBX/Materials/single_rock-felsbrocken_01b.mat
+  artifactKey: Guid(35723610ce8b1be47972022ec3453e50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3J3_AssetsJeu/RessourcesTerrain/RSC (ne pas utiliser ou effacer)/Single_rock -- fait/3dobjects_FBX/Materials/single_rock-felsbrocken_01b.mat using Guid(35723610ce8b1be47972022ec3453e50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aeb1a5fbc2eb6da7709eeea682b34ad4') in 0.358377 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/3J3_AssetsJeu/Traffic Essentials Asset Pack/Meshes/WoodenPost.fbx
+  artifactKey: Guid(8aab4e513565f4054862a84613090c92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3J3_AssetsJeu/Traffic Essentials Asset Pack/Meshes/WoodenPost.fbx using Guid(8aab4e513565f4054862a84613090c92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43dee14f7cb86da5ac9b6c048df4e693') in 0.033595 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/3J3_AssetsJeu/_Ressources(Ne pas effacer)/Terrain Assets/Trees Ambient-Occlusion/Materials/scotspinetypeb-pine needles.mat
+  artifactKey: Guid(4bd4ee421484909199fe72b81c03cb6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3J3_AssetsJeu/_Ressources(Ne pas effacer)/Terrain Assets/Trees Ambient-Occlusion/Materials/scotspinetypeb-pine needles.mat using Guid(4bd4ee421484909199fe72b81c03cb6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fdfd024c23cddb76e86938f2ce9d04be') in 0.041361 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Packages/com.unity.render-pipelines.universal/Runtime/Materials/SpatialMappingWireframe.mat
+  artifactKey: Guid(9875a245ac49007498213638a307faa1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.universal/Runtime/Materials/SpatialMappingWireframe.mat using Guid(9875a245ac49007498213638a307faa1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3c8501a1963d7a74c718301105750e0') in 0.021162 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/3J3_AssetsJeu/TexturesTerrainAvecNormalMap/Materials - Forest Grounds/ground - Green Shoots 2.mat
+  artifactKey: Guid(b70b93d9faf2e6649a6ef2275d4b6db0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3J3_AssetsJeu/TexturesTerrainAvecNormalMap/Materials - Forest Grounds/ground - Green Shoots 2.mat using Guid(b70b93d9faf2e6649a6ef2275d4b6db0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '454426e0353ab44b4e4ecd4a74d32c35') in 0.029254 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/3J3_AssetsJeu/_Ressources(Ne pas effacer)/ForesterSycamore/sycamore/Materials/Mat81910.mat
+  artifactKey: Guid(e069d5ede0817064ea1f9792e9c9cc98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3J3_AssetsJeu/_Ressources(Ne pas effacer)/ForesterSycamore/sycamore/Materials/Mat81910.mat using Guid(e069d5ede0817064ea1f9792e9c9cc98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52566a7af77b5468d1e5277efb7158df') in 0.041413 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/3J3_AssetsJeu/_Ressources(Ne pas effacer)/ForesterSycamore/sycamore/Materials/Mat81940.mat
+  artifactKey: Guid(af17e788e84a2324a8c326c908a8875d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3J3_AssetsJeu/_Ressources(Ne pas effacer)/ForesterSycamore/sycamore/Materials/Mat81940.mat using Guid(af17e788e84a2324a8c326c908a8875d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '105f92fb5ef79530bf7e4a33ab76df16') in 0.034627 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/3J3_AssetsJeu/RessourcesTerrain/RSC (ne pas utiliser ou effacer)/Nobiax Free Rocks --fait/meshes/04/Materials/No Name.mat
+  artifactKey: Guid(0e1397ea41e55994aac5da8070b7622f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3J3_AssetsJeu/RessourcesTerrain/RSC (ne pas utiliser ou effacer)/Nobiax Free Rocks --fait/meshes/04/Materials/No Name.mat using Guid(0e1397ea41e55994aac5da8070b7622f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd6a94ba37e0416812ae039b495373fa') in 0.016952 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/3J3_AssetsJeu/RessourcesTerrain/RSC (ne pas utiliser ou effacer)/Nobiax Free Rocks --fait/meshes/03/Materials/No Name.mat
+  artifactKey: Guid(3f5a841dbb3650a49a05ac083b8b6088) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3J3_AssetsJeu/RessourcesTerrain/RSC (ne pas utiliser ou effacer)/Nobiax Free Rocks --fait/meshes/03/Materials/No Name.mat using Guid(3f5a841dbb3650a49a05ac083b8b6088) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b478b7b7ed6dd17b6afe6cac81a4b226') in 0.016036 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/3J3_AssetsJeu/Traffic Essentials Asset Pack/Materials/YellowLight.mat
+  artifactKey: Guid(fde0d27108135471a8669b6a7bd7fb8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3J3_AssetsJeu/Traffic Essentials Asset Pack/Materials/YellowLight.mat using Guid(fde0d27108135471a8669b6a7bd7fb8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '118ac31889683561eddd8ffc5f0bcf06') in 0.024118 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
