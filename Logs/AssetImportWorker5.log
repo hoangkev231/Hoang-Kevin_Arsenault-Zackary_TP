@@ -1,10 +1,10 @@
 Using pre-set license
 Built from '2022.1/staging' branch; Version is '2022.1.12f1 (916d9c03b898) revision 9530780'; Using compiler version '192829333'; Build Type 'Release'
-OS: 'Windows 10  (10.0.19044) 64bit Education' Language: 'fr' Physical Memory: 32481 MB
+OS: 'Windows 10  (10.0.19044) 64bit Core' Language: 'en' Physical Memory: 65456 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
 
 COMMAND LINE ARGUMENTS:
-C:\Program Files\Unity 2022.1.12f1\Editor\Unity.exe
+C:\Program Files\Unity\Hub\Editor\2022.1.12f1\Editor\Unity.exe
 -adb2
 -batchMode
 -noUpm
@@ -15,7 +15,7 @@ D:/College Work 5/5JB - Exp/Hoang-Kevin_Arsenault-Zackary_TP
 -logFile
 Logs/AssetImportWorker5.log
 -srvPort
-53471
+62561
 Successfully changed project path to: D:/College Work 5/5JB - Exp/Hoang-Kevin_Arsenault-Zackary_TP
 D:/College Work 5/5JB - Exp/Hoang-Kevin_Arsenault-Zackary_TP
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,82 +47,74 @@ D:/College Work 5/5JB - Exp/Hoang-Kevin_Arsenault-Zackary_TP
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 113.45 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 1.12 ms.
+Refreshing native plugins compatible for Editor in 580.60 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 1.90 ms.
 Initialize engine version: 2022.1.12f1 (916d9c03b898)
-[Subsystems] Discovering subsystems at path C:/Program Files/Unity 2022.1.12f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.1.12f1/Editor/Data/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path D:/College Work 5/5JB - Exp/Hoang-Kevin_Arsenault-Zackary_TP/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce RTX 3070 (ID=0x2488)
+    Renderer: NVIDIA GeForce GTX 970 (ID=0x13c2)
     Vendor:   NVIDIA
-    VRAM:     8043 MB
-    Driver:   30.0.15.1215
+    VRAM:     4037 MB
+    Driver:   31.0.15.2647
 Initialize mono
-Mono path[0] = 'C:/Program Files/Unity 2022.1.12f1/Editor/Data/Managed'
-Mono path[1] = 'C:/Program Files/Unity 2022.1.12f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
-Mono config path = 'C:/Program Files/Unity 2022.1.12f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56880
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.1.12f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.1.12f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.1.12f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56076
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: C:/Program Files/Unity 2022.1.12f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
-Register platform support module: C:/Program Files/Unity 2022.1.12f1/Editor/Data/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
-Register platform support module: C:/Program Files/Unity 2022.1.12f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
-Register platform support module: C:/Program Files/Unity 2022.1.12f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Register platform support module: C:/Program Files/Unity 2022.1.12f1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll
-Registered in 0.008441 seconds.
-Native extension for UWP target not found
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.1.12f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.1.12f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.018636 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 126.67 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.05 ms.
+Refreshing native plugins compatible for Editor in 601.21 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.25 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.738 seconds
+- Completed reload, in  2.949 seconds
 Domain Reload Profiling:
-	ReloadAssembly (738ms)
-		BeginReloadAssembly (82ms)
+	ReloadAssembly (2950ms)
+		BeginReloadAssembly (206ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (537ms)
-			LoadAssemblies (81ms)
+		EndReloadAssembly (2324ms)
+			LoadAssemblies (201ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (123ms)
-				TypeCache.Initialize (123ms)
-					TypeCache.ScanAssembly (121ms)
-				ResolveRequiredComponents (0ms)
+			SetupTypeCache (458ms)
+				TypeCache.Initialize (456ms)
+					TypeCache.ScanAssembly (453ms)
+				ResolveRequiredComponents (1ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (28ms)
-			SetupLoadedEditorAssemblies (331ms)
+			RebuildScriptCaches (53ms)
+			SetupLoadedEditorAssemblies (1619ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (47ms)
-				SetLoadedEditorAssemblies (6ms)
-				RefreshPlugins (127ms)
-				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (107ms)
-				ProcessInitializeOnLoadMethodAttributes (43ms)
+				InitializePlatformSupportModulesInManaged (180ms)
+				SetLoadedEditorAssemblies (43ms)
+				RefreshPlugins (602ms)
+				BeforeProcessingInitializeOnLoad (3ms)
+				ProcessInitializeOnLoadAttributes (561ms)
+				ProcessInitializeOnLoadMethodAttributes (230ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.006226 seconds.
+Registered in 0.022085 seconds.
 Begin MonoManager ReloadAssembly
+An ADB process has shut down when we were accessing it, the following System.Threading.ThreadAbortException has been thrown: Thread was being aborted..
 Symbol file LoadedFromMemory doesn't match image D:\College Work 5\5JB - Exp\Hoang-Kevin_Arsenault-Zackary_TP\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image D:\College Work 5\5JB - Exp\Hoang-Kevin_Arsenault-Zackary_TP\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for UWP target not found
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 103.63 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.05 ms.
+Refreshing native plugins compatible for Editor in 209.90 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.08 ms.
 Package Manager log level set to [2]
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
@@ -149,46 +141,46 @@ Mono: successfully reloaded assembly
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
-- Completed reload, in  5.791 seconds
+- Completed reload, in  2.947 seconds
 Domain Reload Profiling:
-	ReloadAssembly (5791ms)
-		BeginReloadAssembly (100ms)
+	ReloadAssembly (2950ms)
+		BeginReloadAssembly (318ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
+			DisableScriptedObjects (10ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (17ms)
-		EndReloadAssembly (5570ms)
-			LoadAssemblies (3247ms)
+			CreateAndSetChildDomain (142ms)
+		EndReloadAssembly (2405ms)
+			LoadAssemblies (178ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (718ms)
-				TypeCache.Initialize (707ms)
-					TypeCache.ScanAssembly (704ms)
-				ResolveRequiredComponents (11ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (61ms)
-			SetupLoadedEditorAssemblies (1504ms)
+			SetupTypeCache (638ms)
+				TypeCache.Initialize (611ms)
+					TypeCache.ScanAssembly (603ms)
+				ResolveRequiredComponents (27ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (145ms)
+			SetupLoadedEditorAssemblies (1349ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (14ms)
-				SetLoadedEditorAssemblies (4ms)
-				RefreshPlugins (104ms)
-				BeforeProcessingInitializeOnLoad (96ms)
-				ProcessInitializeOnLoadAttributes (359ms)
-				ProcessInitializeOnLoadMethodAttributes (919ms)
-				AfterProcessingInitializeOnLoad (7ms)
+				InitializePlatformSupportModulesInManaged (24ms)
+				SetLoadedEditorAssemblies (9ms)
+				RefreshPlugins (210ms)
+				BeforeProcessingInitializeOnLoad (216ms)
+				ProcessInitializeOnLoadAttributes (680ms)
+				ProcessInitializeOnLoadMethodAttributes (195ms)
+				AfterProcessingInitializeOnLoad (16ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (4ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 1.09 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.06 ms.
-Unloading 5981 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 36 unused Assets / (65.0 KB). Loaded Objects now: 6459.
-Memory consumption went from 0.93 GB to 0.93 GB.
-Total: 3.466400 ms (FindLiveObjects: 0.456500 ms CreateObjectMapping: 0.488600 ms MarkObjects: 2.425600 ms  DeleteObjects: 0.095000 ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
+Refreshing native plugins compatible for Editor in 1.91 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.10 ms.
+Unloading 5982 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 36 unused Assets / (64.4 KB). Loaded Objects now: 6461.
+Memory consumption went from 0.92 GB to 0.92 GB.
+Total: 7.982200 ms (FindLiveObjects: 0.690300 ms CreateObjectMapping: 0.420700 ms MarkObjects: 6.624900 ms  DeleteObjects: 0.244000 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -201,875 +193,125 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
-Received Import Request.
-  Time since last request: 211475.979089 seconds.
-  path: Packages/com.unity.searcher/Editor/Resources/FlatSkin/Font/Roboto-Bold.ttf
-  artifactKey: Guid(3750c318f40cab44a97d3a81beaefeb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.searcher/Editor/Resources/FlatSkin/Font/Roboto-Bold.ttf using Guid(3750c318f40cab44a97d3a81beaefeb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2268e94f22929eb179bff25a9d17b12f') in 0.272049 seconds 
+Received Prepare
+Refreshing native plugins compatible for Editor in 11.30 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.08 ms.
+Unloading 26 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 26 unused Assets / (23.0 KB). Loaded Objects now: 6461.
+Memory consumption went from 132.2 MB to 132.2 MB.
+Total: 5.983400 ms (FindLiveObjects: 0.891000 ms CreateObjectMapping: 0.440200 ms MarkObjects: 4.600900 ms  DeleteObjects: 0.050100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.012570 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\College Work 5\5JB - Exp\Hoang-Kevin_Arsenault-Zackary_TP\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\College Work 5\5JB - Exp\Hoang-Kevin_Arsenault-Zackary_TP\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 1.76 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.10 ms.
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0003d] in D:\College Work 5\5JB - Exp\Hoang-Kevin_Arsenault-Zackary_TP\Library\PackageCache\com.unity.xr.oculus@3.0.2\Runtime\OculusLoader.cs:271 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in D:\College Work 5\5JB - Exp\Hoang-Kevin_Arsenault-Zackary_TP\Library\PackageCache\com.unity.xr.oculus@3.0.2\Runtime\OculusLoader.cs:256 
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <f3aec01a34d14c7080754e28743c8472>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00083] in <f3aec01a34d14c7080754e28743c8472>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <f3aec01a34d14c7080754e28743c8472>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x000a5] in <a01bf2e497e84ae285aeb97a3052e6cc>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Completed reload, in  2.180 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2181ms)
+		BeginReloadAssembly (221ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (63ms)
+		EndReloadAssembly (1768ms)
+			LoadAssemblies (161ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (508ms)
+				TypeCache.Initialize (484ms)
+					TypeCache.ScanAssembly (476ms)
+				ResolveRequiredComponents (24ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (80ms)
+			SetupLoadedEditorAssemblies (908ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (37ms)
+				SetLoadedEditorAssemblies (10ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (151ms)
+				ProcessInitializeOnLoadAttributes (526ms)
+				ProcessInitializeOnLoadMethodAttributes (166ms)
+				AfterProcessingInitializeOnLoad (16ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (25ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 5.28 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.08 ms.
+Unloading 5833 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 26 unused Assets / (24.6 KB). Loaded Objects now: 6466.
+Memory consumption went from 0.91 GB to 0.91 GB.
+Total: 5.403300 ms (FindLiveObjects: 0.576900 ms CreateObjectMapping: 0.353200 ms MarkObjects: 4.430200 ms  DeleteObjects: 0.041300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.025188 seconds.
-  path: Assets/3J3_AssetsJeu/Traffic Essentials Asset Pack/Materials/Grey Paint.mat
-  artifactKey: Guid(7003f00618f0e41eeb74be74ece156f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3J3_AssetsJeu/Traffic Essentials Asset Pack/Materials/Grey Paint.mat using Guid(7003f00618f0e41eeb74be74ece156f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71eb7e445414009536345e4c9b4d9118') in 0.029051 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000067 seconds.
-  path: Assets/3J3_AssetsJeu/TexturesTerrainAvecNormalMap/Materials - Forest Grounds/ground - Boggy Marsh.mat
-  artifactKey: Guid(ecf7d252f59690341a1c648e0c15fad0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3J3_AssetsJeu/TexturesTerrainAvecNormalMap/Materials - Forest Grounds/ground - Boggy Marsh.mat using Guid(ecf7d252f59690341a1c648e0c15fad0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf30371f53776e9a0b3ff1d28bb07273') in 0.380654 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/3J3_AssetsJeu/TexturesTerrainAvecNormalMap/Materials - Forest Grounds/ground - Dry Dirt Small Rocks.mat
-  artifactKey: Guid(3c5c97ad4592b874bb4832935f163c27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3J3_AssetsJeu/TexturesTerrainAvecNormalMap/Materials - Forest Grounds/ground - Dry Dirt Small Rocks.mat using Guid(3c5c97ad4592b874bb4832935f163c27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0fb01c0d18d883b6ce0b24586608e589') in 0.033922 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000040 seconds.
-  path: Assets/3J3_AssetsJeu/TexturesTerrainAvecNormalMap/Materials - Forest Grounds/ground - Dense Leaves Tiny Purple Flowers.mat
-  artifactKey: Guid(07278938ac16d9d49abb3af654422a98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3J3_AssetsJeu/TexturesTerrainAvecNormalMap/Materials - Forest Grounds/ground - Dense Leaves Tiny Purple Flowers.mat using Guid(07278938ac16d9d49abb3af654422a98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35f3c1c2882727791011018dbb900ef9') in 0.027603 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000037 seconds.
-  path: Assets/3J3_AssetsJeu/TexturesTerrainAvecNormalMap/Materials - Forest Grounds with Bump/ground - Cut Bracken - bump.mat
-  artifactKey: Guid(67ff2ac1c75b2c943bb02d2709001cf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3J3_AssetsJeu/TexturesTerrainAvecNormalMap/Materials - Forest Grounds with Bump/ground - Cut Bracken - bump.mat using Guid(67ff2ac1c75b2c943bb02d2709001cf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4177fe1858e7d7e64ac89003021b6aaa') in 0.031802 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/3J3_AssetsJeu/TexturesTerrainAvecNormalMap/Materials - Forest Grounds with Bump/ground - Cracked Earth - bump.mat
-  artifactKey: Guid(17296fd77d89eb042acf09c09a503b4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3J3_AssetsJeu/TexturesTerrainAvecNormalMap/Materials - Forest Grounds with Bump/ground - Cracked Earth - bump.mat using Guid(17296fd77d89eb042acf09c09a503b4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd385bab726e6a356597565637b5d54e8') in 0.491104 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/3J3_AssetsJeu/TexturesTerrainAvecNormalMap/Materials - Forest Grounds/ground - Cover Red Green 2.mat
-  artifactKey: Guid(181b2ea6ec280654eb80ba4421e5ec15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3J3_AssetsJeu/TexturesTerrainAvecNormalMap/Materials - Forest Grounds/ground - Cover Red Green 2.mat using Guid(181b2ea6ec280654eb80ba4421e5ec15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35f81a069918918790b3b5a73d427330') in 0.029198 seconds 
+  Time since last request: 24908.680690 seconds.
+  path: Assets/3J3_AssetsJeu/_Ressources(Ne pas effacer)/Skyboxes/Textures/Overcast1/Overcast1_back.tif
+  artifactKey: Guid(517a230447c0af548a7679cdf69c3e56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3J3_AssetsJeu/_Ressources(Ne pas effacer)/Skyboxes/Textures/Overcast1/Overcast1_back.tif using Guid(517a230447c0af548a7679cdf69c3e56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6971b0f5c60c7cab1a9719ae0506765b') in 0.138533 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000046 seconds.
-  path: Assets/3J3_AssetsJeu/TexturesTerrainAvecNormalMap/Materials - Forest Grounds with Bump/ground - Dry Dirt Small Rocks - bump.mat
-  artifactKey: Guid(18397306e1402b74cb360f346d849fec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3J3_AssetsJeu/TexturesTerrainAvecNormalMap/Materials - Forest Grounds with Bump/ground - Dry Dirt Small Rocks - bump.mat using Guid(18397306e1402b74cb360f346d849fec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a0a62cbf2802020ff4141340eebc323') in 0.357142 seconds 
+  path: Assets/3J3_AssetsJeu/_Ressources(Ne pas effacer)/Skyboxes/Textures/Overcast1/Overcast1_left.tif
+  artifactKey: Guid(0904e339eb6fdd546b8539bd04db10ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3J3_AssetsJeu/_Ressources(Ne pas effacer)/Skyboxes/Textures/Overcast1/Overcast1_left.tif using Guid(0904e339eb6fdd546b8539bd04db10ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e632e85ce8fed5505dda6039c98bff18') in 0.026720 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/3J3_AssetsJeu/TexturesTerrainAvecNormalMap/Materials - Forest Grounds/ground - Forest Small Greenery.mat
-  artifactKey: Guid(6dc2ac36f6f7c7e4cad5bbb1fcee8648) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3J3_AssetsJeu/TexturesTerrainAvecNormalMap/Materials - Forest Grounds/ground - Forest Small Greenery.mat using Guid(6dc2ac36f6f7c7e4cad5bbb1fcee8648) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31ea971e6e8641191f0cafb86fd1c2ba') in 0.034124 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000051 seconds.
-  path: Assets/3J3_AssetsJeu/TexturesTerrainAvecNormalMap/Materials - Forest Grounds with Bump/ground - Dry Matted Grass - bump.mat
-  artifactKey: Guid(6faeb741a994ab24d82cb52252c77e92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3J3_AssetsJeu/TexturesTerrainAvecNormalMap/Materials - Forest Grounds with Bump/ground - Dry Matted Grass - bump.mat using Guid(6faeb741a994ab24d82cb52252c77e92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f4db92c9025ba6d4fb3df67a822500c') in 0.044495 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000035 seconds.
-  path: Assets/3J3_AssetsJeu/TexturesTerrainAvecNormalMap/Materials - Forest Grounds/ground - Dry Pine Needles.mat
-  artifactKey: Guid(7c4e981d1f2b32949b4e00416270f51a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3J3_AssetsJeu/TexturesTerrainAvecNormalMap/Materials - Forest Grounds/ground - Dry Pine Needles.mat using Guid(7c4e981d1f2b32949b4e00416270f51a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02068298dbaecb96f282ea082dac2cd6') in 0.031924 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.682403 seconds.
-  path: Assets/3J3_AssetsJeu/TexturesTerrainAvecNormalMap/Materials - Forest Grounds/ground - Grass Snow.mat
-  artifactKey: Guid(667b5152bc860e3458db33aa4086384d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3J3_AssetsJeu/TexturesTerrainAvecNormalMap/Materials - Forest Grounds/ground - Grass Snow.mat using Guid(667b5152bc860e3458db33aa4086384d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66fe2ee8c105b500b2e3010500801273') in 0.032543 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/3J3_AssetsJeu/TexturesTerrainAvecNormalMap/Materials - Forest Grounds with Bump/ground - Green Plants White Flowers - bump.mat
-  artifactKey: Guid(0737e26adfc1a6745a2fb57b612a2d69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3J3_AssetsJeu/TexturesTerrainAvecNormalMap/Materials - Forest Grounds with Bump/ground - Green Plants White Flowers - bump.mat using Guid(0737e26adfc1a6745a2fb57b612a2d69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3a6b0956893864d50ab1a9f17e7d08d') in 0.043324 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/3J3_AssetsJeu/TexturesTerrainAvecNormalMap/Materials - Forest Grounds/ground - Light Duff 2.mat
-  artifactKey: Guid(faa1bed1e6751b44eaf5d6c9358f66a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3J3_AssetsJeu/TexturesTerrainAvecNormalMap/Materials - Forest Grounds/ground - Light Duff 2.mat using Guid(faa1bed1e6751b44eaf5d6c9358f66a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09ee7397dd661fe540502b7d925b3e5d') in 0.035391 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000038 seconds.
-  path: Assets/3J3_AssetsJeu/TexturesTerrainAvecNormalMap/Materials - Forest Grounds/ground - Light Duff.mat
-  artifactKey: Guid(6722c343474a05849a391c8083d13646) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3J3_AssetsJeu/TexturesTerrainAvecNormalMap/Materials - Forest Grounds/ground - Light Duff.mat using Guid(6722c343474a05849a391c8083d13646) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90813055137cf138142099c680df8ed9') in 0.034692 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/3J3_AssetsJeu/TexturesTerrainAvecNormalMap/Materials - Forest Grounds with Bump/ground - Pine Needles Yellow - bump.mat
-  artifactKey: Guid(a37f5bc9fb31132469c80bd184b0e2fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3J3_AssetsJeu/TexturesTerrainAvecNormalMap/Materials - Forest Grounds with Bump/ground - Pine Needles Yellow - bump.mat using Guid(a37f5bc9fb31132469c80bd184b0e2fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2347a690dd7e4b1d7554dd63022c241') in 0.045307 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/3J3_AssetsJeu/TexturesTerrainAvecNormalMap/Materials - Forest Grounds with Bump/ground - Leafy Trail - bump.mat
-  artifactKey: Guid(40466462e8ad67e4193b4df8f2b3dae6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3J3_AssetsJeu/TexturesTerrainAvecNormalMap/Materials - Forest Grounds with Bump/ground - Leafy Trail - bump.mat using Guid(40466462e8ad67e4193b4df8f2b3dae6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5cc7211a8672dd0b1595a87f2fa6d289') in 0.040154 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/3J3_AssetsJeu/Traffic Essentials Asset Pack/Meshes/50Slsign.fbx
-  artifactKey: Guid(414b0320ff9eb43bf9c6562e2962cf23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3J3_AssetsJeu/Traffic Essentials Asset Pack/Meshes/50Slsign.fbx using Guid(414b0320ff9eb43bf9c6562e2962cf23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4382091b80a4710f2a5abfc1dca448b8') in 0.278096 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000035 seconds.
-  path: Assets/3J3_AssetsJeu/RessourcesTerrain/RSC (ne pas utiliser ou effacer)/Stonewall --fait/Materials/vine_lg.mat
-  artifactKey: Guid(4331b955dab6df64f857feef73be5d1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3J3_AssetsJeu/RessourcesTerrain/RSC (ne pas utiliser ou effacer)/Stonewall --fait/Materials/vine_lg.mat using Guid(4331b955dab6df64f857feef73be5d1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36bb68a0e21abdeba3c335a2f7a4f70a') in 0.290351 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000049 seconds.
-  path: Assets/3J3_AssetsJeu/_Ressources(Ne pas effacer)/Terrain Assets/Trees Ambient-Occlusion/Materials/scotspinetypeb-pinetrunk.mat
-  artifactKey: Guid(5edc9249abd4968d4368a36b96fb6b62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3J3_AssetsJeu/_Ressources(Ne pas effacer)/Terrain Assets/Trees Ambient-Occlusion/Materials/scotspinetypeb-pinetrunk.mat using Guid(5edc9249abd4968d4368a36b96fb6b62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '163d0347cf98e15518270995d768d5a9') in 0.028993 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/3J3_AssetsJeu/Traffic Essentials Asset Pack/Materials/Wood 1.mat
-  artifactKey: Guid(e74dfb2e81f494e3aa1bb59959b32c14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3J3_AssetsJeu/Traffic Essentials Asset Pack/Materials/Wood 1.mat using Guid(e74dfb2e81f494e3aa1bb59959b32c14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '487a1e458f5699fd307c078220ac1039') in 0.029373 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/3J3_AssetsJeu/RessourcesTerrain/RSC (ne pas utiliser ou effacer)/Nobiax Free Rocks --fait/meshes/01/Materials/rock_01Mat.mat
-  artifactKey: Guid(a1f30c6b2183c3f4a9ffa3cb444d6ddc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3J3_AssetsJeu/RessourcesTerrain/RSC (ne pas utiliser ou effacer)/Nobiax Free Rocks --fait/meshes/01/Materials/rock_01Mat.mat using Guid(a1f30c6b2183c3f4a9ffa3cb444d6ddc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a38a85e9d1ffb57d9c5da85d7ff77164') in 0.117697 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/3J3_AssetsJeu/Traffic Essentials Asset Pack/Meshes/StopSign.fbx
-  artifactKey: Guid(7e10549c4aeb9418fb8665f2a87a5b33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3J3_AssetsJeu/Traffic Essentials Asset Pack/Meshes/StopSign.fbx using Guid(7e10549c4aeb9418fb8665f2a87a5b33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58df2d86f262607f31904e41cfb10fff') in 0.072696 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/3J3_AssetsJeu/_Ressources(Ne pas effacer)/Terrain Assets/Trees Ambient-Occlusion/Materials/willowbranches.mat
-  artifactKey: Guid(1d059f4dbd110e38a00062d88f962b59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3J3_AssetsJeu/_Ressources(Ne pas effacer)/Terrain Assets/Trees Ambient-Occlusion/Materials/willowbranches.mat using Guid(1d059f4dbd110e38a00062d88f962b59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39426957858807c27db31452d0f7f509') in 0.028394 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000066 seconds.
-  path: Packages/com.unity.render-pipelines.universal/Shaders/Nature/SpeedTree8_PBRLit.shadergraph
-  artifactKey: Guid(9920c1f1781549a46ba081a2a15a16ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.render-pipelines.universal/Shaders/Nature/SpeedTree8_PBRLit.shadergraph using Guid(9920c1f1781549a46ba081a2a15a16ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f2a5539551b2adb23f8003c948b6727') in 1.760974 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000043 seconds.
-  path: Assets/3J3_AssetsJeu/RessourcesTerrain/RSC (ne pas utiliser ou effacer)/Stonewall --fait/Materials/wall_sm_noVine.mat
-  artifactKey: Guid(c271b96b9c54e1b46b521ef3c30f8627) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3J3_AssetsJeu/RessourcesTerrain/RSC (ne pas utiliser ou effacer)/Stonewall --fait/Materials/wall_sm_noVine.mat using Guid(c271b96b9c54e1b46b521ef3c30f8627) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01ae2126413f327bcd615f0e6cb2d505') in 0.035599 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000050 seconds.
-  path: Packages/com.unity.render-pipelines.universal/Shaders/AutodeskInteractive/AutodeskInteractiveTransparent.shadergraph
-  artifactKey: Guid(5c81372d981403744adbdda4433c9c11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.render-pipelines.universal/Shaders/AutodeskInteractive/AutodeskInteractiveTransparent.shadergraph using Guid(5c81372d981403744adbdda4433c9c11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '811197ce4999a64783b068c285c9bdee') in 0.724871 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000041 seconds.
-  path: Assets/3J3_AssetsJeu/TexturesTerrainAvecNormalMap/Materials - Forest Grounds/ground - Meadow with Small Flowers.mat
-  artifactKey: Guid(b99171baa2ce63a459dac787a024a37a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3J3_AssetsJeu/TexturesTerrainAvecNormalMap/Materials - Forest Grounds/ground - Meadow with Small Flowers.mat using Guid(b99171baa2ce63a459dac787a024a37a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52125a1a0bb218ec79b561f0d0a2e067') in 0.023790 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000079 seconds.
-  path: Packages/com.unity.render-pipelines.universal/Runtime/Materials/SpatialMappingOcclusion.mat
-  artifactKey: Guid(b51db210fe78df745a372851b3db949e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.render-pipelines.universal/Runtime/Materials/SpatialMappingOcclusion.mat using Guid(b51db210fe78df745a372851b3db949e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd0498454f4a1120ff8c0d8931f8504b') in 0.018459 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000042 seconds.
-  path: Assets/3J3_AssetsJeu/RessourcesTerrain/RSC (ne pas utiliser ou effacer)/Single_rock -- fait/3dobjects_FBX/Materials/single_rock_colmesh-colmesh.mat
-  artifactKey: Guid(ea5e544e7f9430245a834de4e06563d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3J3_AssetsJeu/RessourcesTerrain/RSC (ne pas utiliser ou effacer)/Single_rock -- fait/3dobjects_FBX/Materials/single_rock_colmesh-colmesh.mat using Guid(ea5e544e7f9430245a834de4e06563d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c6b131ca77c6facb9059b99f6793ae6') in 0.021014 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000035 seconds.
-  path: Assets/3J3_AssetsJeu/RessourcesTerrain/RSC (ne pas utiliser ou effacer)/Single_rock -- fait/3dobjects_FBX/Materials/single_rock-felsbrocken.mat
-  artifactKey: Guid(4253c60dac1824897a5b8d4705587f32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3J3_AssetsJeu/RessourcesTerrain/RSC (ne pas utiliser ou effacer)/Single_rock -- fait/3dobjects_FBX/Materials/single_rock-felsbrocken.mat using Guid(4253c60dac1824897a5b8d4705587f32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '887d019c385474602416c4a304d46df5') in 0.019679 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/3J3_AssetsJeu/RessourcesTerrain/RSC (ne pas utiliser ou effacer)/Single_rock -- fait/3dobjects_FBX/Materials/single_rock-felsbrocken_01c.mat
-  artifactKey: Guid(ce1dfe218c3c53b4a8a00377d65db853) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3J3_AssetsJeu/RessourcesTerrain/RSC (ne pas utiliser ou effacer)/Single_rock -- fait/3dobjects_FBX/Materials/single_rock-felsbrocken_01c.mat using Guid(ce1dfe218c3c53b4a8a00377d65db853) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73e7c1d21a2710becce10004974c067a') in 0.056002 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Packages/com.unity.render-pipelines.universal/Runtime/Materials/SimpleLit.mat
-  artifactKey: Guid(6a1143ee683302f4aa628c052723efc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.render-pipelines.universal/Runtime/Materials/SimpleLit.mat using Guid(6a1143ee683302f4aa628c052723efc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06a87f116f25f8c3b8d415ad9149708f') in 0.336362 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/3J3_AssetsJeu/NVJOB Water Shader SAF/Example Scenes/Materials/Water/Water Type 2.mat
-  artifactKey: Guid(fd9a104b89431814b9f312a5527175f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3J3_AssetsJeu/NVJOB Water Shader SAF/Example Scenes/Materials/Water/Water Type 2.mat using Guid(fd9a104b89431814b9f312a5527175f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb27c2377e4e740aace6b20714de2310') in 0.104321 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000037 seconds.
-  path: Packages/com.unity.render-pipelines.universal/Runtime/Materials/PhysicalMaterial3DsMax/PhysicalMaterial3DsMaxTransparent.shadergraph
-  artifactKey: Guid(1a207e3bee00db44b940e6f362a8e148) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.render-pipelines.universal/Runtime/Materials/PhysicalMaterial3DsMax/PhysicalMaterial3DsMaxTransparent.shadergraph using Guid(1a207e3bee00db44b940e6f362a8e148) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd12c36bffd1d758ef043f1b4684fe7d3') in 0.631651 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005829 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image D:\College Work 5\5JB - Exp\Hoang-Kevin_Arsenault-Zackary_TP\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image D:\College Work 5\5JB - Exp\Hoang-Kevin_Arsenault-Zackary_TP\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for UWP target not found
-Native extension for WindowsStandalone target not found
-Native extension for Android target not found
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.01 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.07 ms.
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
-  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0003d] in D:\College Work 5\5JB - Exp\Hoang-Kevin_Arsenault-Zackary_TP\Library\PackageCache\com.unity.xr.oculus@3.0.2\Runtime\OculusLoader.cs:271 
-  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in D:\College Work 5\5JB - Exp\Hoang-Kevin_Arsenault-Zackary_TP\Library\PackageCache\com.unity.xr.oculus@3.0.2\Runtime\OculusLoader.cs:256 
-  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
-  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <f3aec01a34d14c7080754e28743c8472>:0 
-   --- End of inner exception stack trace ---
-  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00083] in <f3aec01a34d14c7080754e28743c8472>:0 
-  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <f3aec01a34d14c7080754e28743c8472>:0 
-  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x000a5] in <a01bf2e497e84ae285aeb97a3052e6cc>:0 
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogError (object)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
-
-Mono: successfully reloaded assembly
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-- Completed reload, in  1.321 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1321ms)
-		BeginReloadAssembly (145ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (40ms)
-		EndReloadAssembly (1029ms)
-			LoadAssemblies (95ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (395ms)
-				TypeCache.Initialize (384ms)
-					TypeCache.ScanAssembly (379ms)
-				ResolveRequiredComponents (11ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (37ms)
-			SetupLoadedEditorAssemblies (425ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (21ms)
-				SetLoadedEditorAssemblies (5ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (67ms)
-				ProcessInitializeOnLoadAttributes (249ms)
-				ProcessInitializeOnLoadMethodAttributes (75ms)
-				AfterProcessingInitializeOnLoad (7ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (17ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 2.03 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.04 ms.
-Unloading 5833 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 26 unused Assets / (24.9 KB). Loaded Objects now: 6558.
-Memory consumption went from 0.91 GB to 0.91 GB.
-Total: 3.110800 ms (FindLiveObjects: 0.400700 ms CreateObjectMapping: 0.370900 ms MarkObjects: 2.315600 ms  DeleteObjects: 0.023100 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.006044 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image D:\College Work 5\5JB - Exp\Hoang-Kevin_Arsenault-Zackary_TP\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image D:\College Work 5\5JB - Exp\Hoang-Kevin_Arsenault-Zackary_TP\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for UWP target not found
-Native extension for WindowsStandalone target not found
-Native extension for Android target not found
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.00 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.05 ms.
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
-  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0003d] in D:\College Work 5\5JB - Exp\Hoang-Kevin_Arsenault-Zackary_TP\Library\PackageCache\com.unity.xr.oculus@3.0.2\Runtime\OculusLoader.cs:271 
-  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in D:\College Work 5\5JB - Exp\Hoang-Kevin_Arsenault-Zackary_TP\Library\PackageCache\com.unity.xr.oculus@3.0.2\Runtime\OculusLoader.cs:256 
-  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
-  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <f3aec01a34d14c7080754e28743c8472>:0 
-   --- End of inner exception stack trace ---
-  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00083] in <f3aec01a34d14c7080754e28743c8472>:0 
-  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <f3aec01a34d14c7080754e28743c8472>:0 
-  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x000a5] in <a01bf2e497e84ae285aeb97a3052e6cc>:0 
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogError (object)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
-
-Mono: successfully reloaded assembly
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-- Completed reload, in  1.031 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1032ms)
-		BeginReloadAssembly (113ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (34ms)
-		EndReloadAssembly (840ms)
-			LoadAssemblies (72ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (239ms)
-				TypeCache.Initialize (228ms)
-					TypeCache.ScanAssembly (223ms)
-				ResolveRequiredComponents (11ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (39ms)
-			SetupLoadedEditorAssemblies (426ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (21ms)
-				SetLoadedEditorAssemblies (5ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (67ms)
-				ProcessInitializeOnLoadAttributes (254ms)
-				ProcessInitializeOnLoadMethodAttributes (71ms)
-				AfterProcessingInitializeOnLoad (6ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (13ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 3.07 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.05 ms.
-Unloading 5832 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 26 unused Assets / (25.7 KB). Loaded Objects now: 6563.
-Memory consumption went from 0.91 GB to 0.91 GB.
-Total: 3.139600 ms (FindLiveObjects: 0.415600 ms CreateObjectMapping: 0.378700 ms MarkObjects: 2.321900 ms  DeleteObjects: 0.022600 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.007695 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image D:\College Work 5\5JB - Exp\Hoang-Kevin_Arsenault-Zackary_TP\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image D:\College Work 5\5JB - Exp\Hoang-Kevin_Arsenault-Zackary_TP\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for UWP target not found
-Native extension for WindowsStandalone target not found
-Native extension for Android target not found
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.82 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.05 ms.
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
-  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0003d] in D:\College Work 5\5JB - Exp\Hoang-Kevin_Arsenault-Zackary_TP\Library\PackageCache\com.unity.xr.oculus@3.0.2\Runtime\OculusLoader.cs:271 
-  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in D:\College Work 5\5JB - Exp\Hoang-Kevin_Arsenault-Zackary_TP\Library\PackageCache\com.unity.xr.oculus@3.0.2\Runtime\OculusLoader.cs:256 
-  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
-  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <f3aec01a34d14c7080754e28743c8472>:0 
-   --- End of inner exception stack trace ---
-  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00083] in <f3aec01a34d14c7080754e28743c8472>:0 
-  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <f3aec01a34d14c7080754e28743c8472>:0 
-  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x000a5] in <a01bf2e497e84ae285aeb97a3052e6cc>:0 
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogError (object)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
-
-Mono: successfully reloaded assembly
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-- Completed reload, in  1.022 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1023ms)
-		BeginReloadAssembly (116ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (36ms)
-		EndReloadAssembly (829ms)
-			LoadAssemblies (74ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (236ms)
-				TypeCache.Initialize (226ms)
-					TypeCache.ScanAssembly (221ms)
-				ResolveRequiredComponents (11ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (36ms)
-			SetupLoadedEditorAssemblies (417ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (20ms)
-				SetLoadedEditorAssemblies (5ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (63ms)
-				ProcessInitializeOnLoadAttributes (245ms)
-				ProcessInitializeOnLoadMethodAttributes (73ms)
-				AfterProcessingInitializeOnLoad (10ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (14ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 2.30 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.04 ms.
-Unloading 5832 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 26 unused Assets / (24.7 KB). Loaded Objects now: 6568.
-Memory consumption went from 0.91 GB to 0.91 GB.
-Total: 3.625000 ms (FindLiveObjects: 0.442700 ms CreateObjectMapping: 0.496300 ms MarkObjects: 2.655300 ms  DeleteObjects: 0.030000 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.008402 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image D:\College Work 5\5JB - Exp\Hoang-Kevin_Arsenault-Zackary_TP\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image D:\College Work 5\5JB - Exp\Hoang-Kevin_Arsenault-Zackary_TP\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for UWP target not found
-Native extension for WindowsStandalone target not found
-Native extension for Android target not found
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.00 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.05 ms.
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
-  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0003d] in D:\College Work 5\5JB - Exp\Hoang-Kevin_Arsenault-Zackary_TP\Library\PackageCache\com.unity.xr.oculus@3.0.2\Runtime\OculusLoader.cs:271 
-  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in D:\College Work 5\5JB - Exp\Hoang-Kevin_Arsenault-Zackary_TP\Library\PackageCache\com.unity.xr.oculus@3.0.2\Runtime\OculusLoader.cs:256 
-  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
-  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <f3aec01a34d14c7080754e28743c8472>:0 
-   --- End of inner exception stack trace ---
-  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00083] in <f3aec01a34d14c7080754e28743c8472>:0 
-  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <f3aec01a34d14c7080754e28743c8472>:0 
-  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x000a5] in <a01bf2e497e84ae285aeb97a3052e6cc>:0 
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogError (object)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
-
-Mono: successfully reloaded assembly
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-- Completed reload, in  1.057 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1058ms)
-		BeginReloadAssembly (138ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (50ms)
-		EndReloadAssembly (833ms)
-			LoadAssemblies (77ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (229ms)
-				TypeCache.Initialize (218ms)
-					TypeCache.ScanAssembly (213ms)
-				ResolveRequiredComponents (11ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (37ms)
-			SetupLoadedEditorAssemblies (420ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (20ms)
-				SetLoadedEditorAssemblies (5ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (70ms)
-				ProcessInitializeOnLoadAttributes (248ms)
-				ProcessInitializeOnLoadMethodAttributes (69ms)
-				AfterProcessingInitializeOnLoad (7ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (13ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 2.12 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.04 ms.
-Unloading 5832 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 26 unused Assets / (24.8 KB). Loaded Objects now: 6573.
-Memory consumption went from 0.91 GB to 0.91 GB.
-Total: 3.015500 ms (FindLiveObjects: 0.386700 ms CreateObjectMapping: 0.341800 ms MarkObjects: 2.265900 ms  DeleteObjects: 0.020400 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.008000 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image D:\College Work 5\5JB - Exp\Hoang-Kevin_Arsenault-Zackary_TP\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image D:\College Work 5\5JB - Exp\Hoang-Kevin_Arsenault-Zackary_TP\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for UWP target not found
-Native extension for WindowsStandalone target not found
-Native extension for Android target not found
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.08 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.07 ms.
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
-  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0003d] in D:\College Work 5\5JB - Exp\Hoang-Kevin_Arsenault-Zackary_TP\Library\PackageCache\com.unity.xr.oculus@3.0.2\Runtime\OculusLoader.cs:271 
-  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in D:\College Work 5\5JB - Exp\Hoang-Kevin_Arsenault-Zackary_TP\Library\PackageCache\com.unity.xr.oculus@3.0.2\Runtime\OculusLoader.cs:256 
-  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
-  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <f3aec01a34d14c7080754e28743c8472>:0 
-   --- End of inner exception stack trace ---
-  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00083] in <f3aec01a34d14c7080754e28743c8472>:0 
-  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <f3aec01a34d14c7080754e28743c8472>:0 
-  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x000a5] in <a01bf2e497e84ae285aeb97a3052e6cc>:0 
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogError (object)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
-
-Mono: successfully reloaded assembly
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-- Completed reload, in  1.343 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1344ms)
-		BeginReloadAssembly (139ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (37ms)
-		EndReloadAssembly (1064ms)
-			LoadAssemblies (99ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (435ms)
-				TypeCache.Initialize (424ms)
-					TypeCache.ScanAssembly (419ms)
-				ResolveRequiredComponents (11ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (37ms)
-			SetupLoadedEditorAssemblies (415ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (21ms)
-				SetLoadedEditorAssemblies (5ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (66ms)
-				ProcessInitializeOnLoadAttributes (245ms)
-				ProcessInitializeOnLoadMethodAttributes (70ms)
-				AfterProcessingInitializeOnLoad (6ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (13ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 2.26 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.04 ms.
-Unloading 5832 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 26 unused Assets / (25.8 KB). Loaded Objects now: 6578.
-Memory consumption went from 0.91 GB to 0.91 GB.
-Total: 3.615100 ms (FindLiveObjects: 0.516200 ms CreateObjectMapping: 0.555800 ms MarkObjects: 2.512300 ms  DeleteObjects: 0.030200 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005689 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image D:\College Work 5\5JB - Exp\Hoang-Kevin_Arsenault-Zackary_TP\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image D:\College Work 5\5JB - Exp\Hoang-Kevin_Arsenault-Zackary_TP\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for UWP target not found
-Native extension for WindowsStandalone target not found
-Native extension for Android target not found
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.21 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.04 ms.
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
-  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0003d] in D:\College Work 5\5JB - Exp\Hoang-Kevin_Arsenault-Zackary_TP\Library\PackageCache\com.unity.xr.oculus@3.0.2\Runtime\OculusLoader.cs:271 
-  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in D:\College Work 5\5JB - Exp\Hoang-Kevin_Arsenault-Zackary_TP\Library\PackageCache\com.unity.xr.oculus@3.0.2\Runtime\OculusLoader.cs:256 
-  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
-  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <f3aec01a34d14c7080754e28743c8472>:0 
-   --- End of inner exception stack trace ---
-  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00083] in <f3aec01a34d14c7080754e28743c8472>:0 
-  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <f3aec01a34d14c7080754e28743c8472>:0 
-  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x000a5] in <a01bf2e497e84ae285aeb97a3052e6cc>:0 
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogError (object)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
-
-Mono: successfully reloaded assembly
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-- Completed reload, in  1.026 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1027ms)
-		BeginReloadAssembly (111ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (35ms)
-		EndReloadAssembly (829ms)
-			LoadAssemblies (67ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (238ms)
-				TypeCache.Initialize (227ms)
-					TypeCache.ScanAssembly (222ms)
-				ResolveRequiredComponents (11ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (43ms)
-			SetupLoadedEditorAssemblies (419ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (23ms)
-				SetLoadedEditorAssemblies (5ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (67ms)
-				ProcessInitializeOnLoadAttributes (250ms)
-				ProcessInitializeOnLoadMethodAttributes (68ms)
-				AfterProcessingInitializeOnLoad (6ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (12ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 2.01 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.04 ms.
-Unloading 5832 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 26 unused Assets / (24.7 KB). Loaded Objects now: 6583.
-Memory consumption went from 0.91 GB to 0.91 GB.
-Total: 3.251100 ms (FindLiveObjects: 0.357400 ms CreateObjectMapping: 0.334500 ms MarkObjects: 2.541200 ms  DeleteObjects: 0.017500 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005850 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image D:\College Work 5\5JB - Exp\Hoang-Kevin_Arsenault-Zackary_TP\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image D:\College Work 5\5JB - Exp\Hoang-Kevin_Arsenault-Zackary_TP\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for UWP target not found
-Native extension for WindowsStandalone target not found
-Native extension for Android target not found
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.20 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.05 ms.
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
-  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0003d] in D:\College Work 5\5JB - Exp\Hoang-Kevin_Arsenault-Zackary_TP\Library\PackageCache\com.unity.xr.oculus@3.0.2\Runtime\OculusLoader.cs:271 
-  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in D:\College Work 5\5JB - Exp\Hoang-Kevin_Arsenault-Zackary_TP\Library\PackageCache\com.unity.xr.oculus@3.0.2\Runtime\OculusLoader.cs:256 
-  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
-  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <f3aec01a34d14c7080754e28743c8472>:0 
-   --- End of inner exception stack trace ---
-  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00083] in <f3aec01a34d14c7080754e28743c8472>:0 
-  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <f3aec01a34d14c7080754e28743c8472>:0 
-  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x000a5] in <a01bf2e497e84ae285aeb97a3052e6cc>:0 
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogError (object)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
-
-Mono: successfully reloaded assembly
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-- Completed reload, in  1.062 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1062ms)
-		BeginReloadAssembly (115ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (34ms)
-		EndReloadAssembly (864ms)
-			LoadAssemblies (78ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (258ms)
-				TypeCache.Initialize (247ms)
-					TypeCache.ScanAssembly (241ms)
-				ResolveRequiredComponents (11ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (39ms)
-			SetupLoadedEditorAssemblies (422ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (20ms)
-				SetLoadedEditorAssemblies (5ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (72ms)
-				ProcessInitializeOnLoadAttributes (245ms)
-				ProcessInitializeOnLoadMethodAttributes (72ms)
-				AfterProcessingInitializeOnLoad (6ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (13ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 2.05 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.04 ms.
-Unloading 5832 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 26 unused Assets / (24.8 KB). Loaded Objects now: 6588.
-Memory consumption went from 0.91 GB to 0.91 GB.
-Total: 3.261500 ms (FindLiveObjects: 0.416000 ms CreateObjectMapping: 0.388200 ms MarkObjects: 2.435400 ms  DeleteObjects: 0.021200 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 1742.542339 seconds.
-  path: Assets/3J3_AssetsJeu/_Ressources(Ne pas effacer)/ForesterSycamore/sycamore/sycamore.fbx
-  artifactKey: Guid(1f6bf103fd3778449879b99c9ae3533e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3J3_AssetsJeu/_Ressources(Ne pas effacer)/ForesterSycamore/sycamore/sycamore.fbx using Guid(1f6bf103fd3778449879b99c9ae3533e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '992b0ebc8c75e53fbaaffcbbbb96339f') in 0.251649 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.710059 seconds.
-  path: Assets/3J3_AssetsJeu/_Ressources(Ne pas effacer)/Terrain Assets/Trees Ambient-Occlusion/ThinTree.fbx
-  artifactKey: Guid(96ba5bd6f9ef547cfa2bedfffc791631) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3J3_AssetsJeu/_Ressources(Ne pas effacer)/Terrain Assets/Trees Ambient-Occlusion/ThinTree.fbx using Guid(96ba5bd6f9ef547cfa2bedfffc791631) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0cda26e8166f3199641ccbcc962f0b4') in 0.033342 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.461913 seconds.
-  path: Assets/3J3_AssetsJeu/RessourcesTerrain/RSC (ne pas utiliser ou effacer)/Terrain Assets/Rocks/RockMesh.fbx
-  artifactKey: Guid(8e41f14c6552d48e6a7992aaecc808e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3J3_AssetsJeu/RessourcesTerrain/RSC (ne pas utiliser ou effacer)/Terrain Assets/Rocks/RockMesh.fbx using Guid(8e41f14c6552d48e6a7992aaecc808e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e646096c0bd806cce0fc3e18af603474') in 0.035722 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/3J3_AssetsJeu/RessourcesTerrain/RSC (ne pas utiliser ou effacer)/Nobiax Free Rocks --fait/meshes/02/rock_02.fbx
-  artifactKey: Guid(92a4ca158c006714da64430ae541b661) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3J3_AssetsJeu/RessourcesTerrain/RSC (ne pas utiliser ou effacer)/Nobiax Free Rocks --fait/meshes/02/rock_02.fbx using Guid(92a4ca158c006714da64430ae541b661) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a62367936fd4467c914a805259eddc92') in 0.033857 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/3J3_AssetsJeu/RessourcesTerrain/RSC (ne pas utiliser ou effacer)/Nobiax Free Rocks --fait/meshes/04/rock_04.fbx
-  artifactKey: Guid(c806429f137192446a05df9fe9ace93b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3J3_AssetsJeu/RessourcesTerrain/RSC (ne pas utiliser ou effacer)/Nobiax Free Rocks --fait/meshes/04/rock_04.fbx using Guid(c806429f137192446a05df9fe9ace93b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ac6d5552dc85cd0840f196293d6c5fe') in 0.036927 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.822673 seconds.
-  path: Assets/3J3_AssetsJeu/RessourcesTerrain/RSC (ne pas utiliser ou effacer)/RockBlobs -- fait/rockBlobThree.fbx
-  artifactKey: Guid(e1522ba520a52414787bb00e2b57710b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3J3_AssetsJeu/RessourcesTerrain/RSC (ne pas utiliser ou effacer)/RockBlobs -- fait/rockBlobThree.fbx using Guid(e1522ba520a52414787bb00e2b57710b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '353492c410170fa12e3fc9f226204e92') in 0.024149 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.188381 seconds.
-  path: Assets/3J3_AssetsJeu/_Ressources(Ne pas effacer)/Terrain Assets/Trees Ambient-Occlusion/Alder.fbx
-  artifactKey: Guid(25fa881dbd110e38a00062d88f962b59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3J3_AssetsJeu/_Ressources(Ne pas effacer)/Terrain Assets/Trees Ambient-Occlusion/Alder.fbx using Guid(25fa881dbd110e38a00062d88f962b59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74a32372861a1465fec3e4dc8d73a7be') in 0.039795 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/3J3_AssetsJeu/RessourcesTerrain/RSC (ne pas utiliser ou effacer)/RockBlobs -- fait/rockBlobSix.fbx
-  artifactKey: Guid(7ced1f359c16f41c292e253605b9f1e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3J3_AssetsJeu/RessourcesTerrain/RSC (ne pas utiliser ou effacer)/RockBlobs -- fait/rockBlobSix.fbx using Guid(7ced1f359c16f41c292e253605b9f1e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3089d19265e934c245bf63a20d14f0be') in 0.023803 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/3J3_AssetsJeu/_Ressources(Ne pas effacer)/Terrain Assets/Trees Ambient-Occlusion/Palm.fbx
-  artifactKey: Guid(02e48269f8d554fbca75435761452392) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3J3_AssetsJeu/_Ressources(Ne pas effacer)/Terrain Assets/Trees Ambient-Occlusion/Palm.fbx using Guid(02e48269f8d554fbca75435761452392) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d5857ef0734665536369bda683d1d7d') in 0.039542 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.187549 seconds.
-  path: Assets/3J3_AssetsJeu/_Ressources(Ne pas effacer)/Terrain Assets/Trees Ambient-Occlusion/Mimosa.fbx
-  artifactKey: Guid(7b9282fc41cfa4caf9b150bd407f856e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3J3_AssetsJeu/_Ressources(Ne pas effacer)/Terrain Assets/Trees Ambient-Occlusion/Mimosa.fbx using Guid(7b9282fc41cfa4caf9b150bd407f856e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e141c6771c0871a8f92dba9ebcf9efa1') in 0.040267 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.875868 seconds.
-  path: Assets/3J3_AssetsJeu/RessourcesTerrain/RSC (ne pas utiliser ou effacer)/Single_rock -- fait/3dobjects_FBX/single_rock_colmesh.fbx
-  artifactKey: Guid(14655e1d94d5588458c0254db88df2a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3J3_AssetsJeu/RessourcesTerrain/RSC (ne pas utiliser ou effacer)/Single_rock -- fait/3dobjects_FBX/single_rock_colmesh.fbx using Guid(14655e1d94d5588458c0254db88df2a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6fd6878546ca287ea2d1c51f533ea6a0') in 0.054996 seconds 
+  Time since last request: 0.000036 seconds.
+  path: Assets/3J3_AssetsJeu/_Ressources(Ne pas effacer)/Skyboxes/Textures/Overcast1/Overcast1_right.tif
+  artifactKey: Guid(93bc7d6f0e1793c47a5f88178ecc75fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3J3_AssetsJeu/_Ressources(Ne pas effacer)/Skyboxes/Textures/Overcast1/Overcast1_right.tif using Guid(93bc7d6f0e1793c47a5f88178ecc75fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5df27104a146b1fd632c7d85493b5933') in 0.022738 seconds 
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
 AssetImportWorker is now disconnected from the server
 Process exiting

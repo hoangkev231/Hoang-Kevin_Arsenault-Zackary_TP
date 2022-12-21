@@ -7,7 +7,7 @@ onBoardingDoNotAskAgain = true
 showPackageIndexes = false
 showStatusBar = false
 scopes = {
-	"last_search.7788661B" = ""
+	"last_search.7788661B" = "t:Material"
 	"OpenInspectorPreview.7788661B" = "0"
 	"currentGroup.7788661B" = "asset"
 }
@@ -56,6 +56,7 @@ providers = {
 objectSelectors = {
 }
 recentSearches = [
+	"t:Material"
 ]
 searchItemFavorites = [
 ]
